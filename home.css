@@ -205,3 +205,5 @@
 }
 
 .about-section:before{top:-50px}
+
+.worship-section:after{height:120px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 120' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M0 48 C100 25 175 16 270 40 S440 82 590 45 S800 12 950 42 S1130 80 1280 48 S1390 31 1440 37 V120H0Z'/%3E%3C/svg%3E")}
