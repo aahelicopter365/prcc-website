@@ -5,7 +5,7 @@
     "each": 6000000,
     "total": 25000000
   },
-  "downloaded_bytes": 16642046,
+  "downloaded_bytes": 17020602,
   "assets": [
     {
       "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Yard%20Sale2.jpg",
@@ -480,6 +480,209 @@
         "rendered_dimensions": [
           532,
           266
+        ]
+      }
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/stock/11883/:/rs=w:1535,m",
+      "source_name": "GoDaddy stock church interior hero 11883",
+      "local_path": "assets/production/074.jpg",
+      "bytes": 251326,
+      "sha256": "12a35cdf22bc68f5fa2d5754999578e2f62bc96c8c524587ebcdba2e8f3ba556",
+      "pages": [
+        "/online-giving/"
+      ],
+      "dimensions": [
+        1535,
+        1151
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-66511c7.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1535,m",
+      "source_name": "PRCC Prayer page desktop hero background",
+      "local_path": "assets/production/075.png",
+      "bytes": 1428681,
+      "sha256": "37f9549cd6b17545b6c516eb4bb41840c222c0032cf0095ffa96ff70135cc697",
+      "pages": [
+        "/prayer/"
+      ],
+      "dimensions": [
+        1535,
+        1020
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Lord%20Hear%20our%20Prayers.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1160/qt=q:31",
+      "source_name": "Lord Hear our Prayers.jpg",
+      "local_path": "assets/production/076.jpg",
+      "bytes": 20002,
+      "sha256": "57cbfa23d0b40b9e25472ce92ff78f964d6ef79559e9d524d83d3268835611cc",
+      "pages": [
+        "/prayer/"
+      ],
+      "dimensions": [
+        1030,
+        635
+      ]
+    },
+    {
+      "source_url": "https://prccgreensboro.org/core-values",
+      "source_name": "Core Values forest scripture banner, desktop screenshot crop",
+      "local_path": "assets/production/077.jpg",
+      "bytes": 280790,
+      "sha256": "b8a3b719ae82f24b891e823553a2659d1825aea8b085630a7260b365d3b7b3ad",
+      "pages": [
+        "/core-values/"
+      ],
+      "derived_from": {
+        "source_capture": "production Core Values full-page screenshot, 1440x1860",
+        "crop_pixels": [
+          0,
+          1225,
+          1440,
+          1676
+        ],
+        "rendered_dimensions": [
+          1440,
+          451
+        ]
+      }
+    },
+    {
+      "source_url": "https://prccgreensboro.org/core-values",
+      "source_name": "Core Values forest scripture banner, mobile screenshot crop",
+      "local_path": "assets/production/078.jpg",
+      "bytes": 97766,
+      "sha256": "5a9ea0bfb6f624b11ec7faedd409228c03ebd8b857c86cabe5fbb11112684868",
+      "pages": [
+        "/core-values/"
+      ],
+      "derived_from": {
+        "source_capture": "production Core Values full-page screenshot, 390x2666",
+        "crop_pixels": [
+          0,
+          1792,
+          390,
+          2357
+        ],
+        "rendered_dimensions": [
+          390,
+          565
+        ]
+      }
+    },
+    {
+      "source_url": "https://prccgreensboro.org/small-groups/",
+      "source_name": "Small Groups desktop Scripture hero screenshot crop",
+      "local_path": "assets/production/079.jpg",
+      "bytes": 176515,
+      "sha256": "df1cc31d023d8c8cf5252c3d589dea7e04bb0d10ddba64e12a892c9813a41b6c",
+      "pages": [
+        "/small-groups/"
+      ],
+      "derived_from": {
+        "source_capture": "production Small Groups full-page screenshot, 1440x4356",
+        "crop_pixels": [
+          0,
+          260,
+          1440,
+          830
+        ],
+        "rendered_dimensions": [
+          1440,
+          570
+        ]
+      }
+    },
+    {
+      "source_url": "https://prccgreensboro.org/small-groups/",
+      "source_name": "Small Groups mobile Scripture hero screenshot crop",
+      "local_path": "assets/production/080.jpg",
+      "bytes": 102867,
+      "sha256": "702e331c70e400e89a4903cba3d7aae25c60cc5ad122d05d7a231ac4271353f0",
+      "pages": [
+        "/small-groups/"
+      ],
+      "derived_from": {
+        "source_capture": "production Small Groups full-page screenshot, 390x3335",
+        "crop_pixels": [
+          0,
+          128,
+          390,
+          832
+        ],
+        "rendered_dimensions": [
+          390,
+          704
+        ]
+      }
+    },
+    {
+      "source_url": "https://prccgreensboro.org/small-groups/",
+      "source_name": "Adult Small Groups desktop hero screenshot crop",
+      "local_path": "assets/production/081.jpg",
+      "bytes": 87192,
+      "sha256": "5ae90964977b9bcb21a238828feb2d8df2af368dff1f754603bea57da38b4073",
+      "pages": [
+        "/small-groups/"
+      ],
+      "derived_from": {
+        "source_capture": "production Small Groups full-page screenshot, 1440x4356",
+        "crop_pixels": [
+          0,
+          1290,
+          1440,
+          1655
+        ],
+        "rendered_dimensions": [
+          1440,
+          365
+        ]
+      }
+    },
+    {
+      "source_url": "https://prccgreensboro.org/small-groups/",
+      "source_name": "Adult Small Groups mobile hero screenshot crop",
+      "local_path": "assets/production/082.jpg",
+      "bytes": 35770,
+      "sha256": "69a1f205da0fabf6d509c315b00d40247184a5a1d6b112b3b108af6878254167",
+      "pages": [
+        "/small-groups/"
+      ],
+      "derived_from": {
+        "source_capture": "production Small Groups full-page screenshot, 390x3335",
+        "crop_pixels": [
+          0,
+          1375,
+          390,
+          1658
+        ],
+        "rendered_dimensions": [
+          390,
+          283
+        ]
+      }
+    },
+    {
+      "source_url": "https://prccgreensboro.org/contact-us/",
+      "source_name": "Contact map screenshot crop",
+      "local_path": "assets/production/083.jpg",
+      "bytes": 25355,
+      "sha256": "236425d27177e9bdecef249fccfe801069e398faaadde1d76ab4d253b9bd99b3",
+      "pages": [
+        "/contact-us/"
+      ],
+      "derived_from": {
+        "source_capture": "saved source Contact Us mobile screenshot, 390x1867",
+        "crop_pixels": [
+          0,
+          1265,
+          390,
+          1475
+        ],
+        "rendered_dimensions": [
+          390,
+          210
         ]
       }
     }
