@@ -685,6 +685,44 @@
           210
         ]
       }
+    },
+    {
+      "source_url": "https://prccgreensboro.org/faqs/",
+      "source_name": "Shared mobile and desktop footer GoDaddy Airo logo crop",
+      "local_path": "assets/production/084.jpg",
+      "bytes": 2526,
+      "sha256": "c12773fca627b194af735a277ecb59b9ae2a8b0ecffd04b91fff91d444485490",
+      "pages": [
+        "/",
+        "/contact-us/",
+        "/ministry-staff/",
+        "/core-values/",
+        "/missions/",
+        "/church-history/",
+        "/faqs/",
+        "/weekly-update/",
+        "/small-groups/",
+        "/children-and-youth/",
+        "/prayer/",
+        "/find-peace-in-christ/",
+        "/online-giving/",
+        "/sermons/",
+        "/event-calendar/",
+        "/event-recap/"
+      ],
+      "derived_from": {
+        "source_capture": "saved source FAQs desktop full-page screenshot, 1440x1083",
+        "crop_pixels": [
+          1135,
+          988,
+          1290,
+          1020
+        ],
+        "rendered_dimensions": [
+          155,
+          32
+        ]
+      }
     }
   ]
 }

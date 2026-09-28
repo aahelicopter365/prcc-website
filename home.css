@@ -20,6 +20,7 @@
  .scripture-section{min-height:662px}
  .home-footer{height:184px}
 }
+.home-footer .footer-credit img{display:block;width:155px;height:32px;object-fit:contain}
 
 /* Responsive calibration from the production full-page captures. */
 @media (min-width:701px) and (max-width:1399px){
