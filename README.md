@@ -17,3 +17,7 @@ Contact, prayer, and “Find Peace in Christ” controls are presentational and 
 ## Deployment
 
 `.github/workflows/pages.yml` publishes the repository root to GitHub Pages after a commit reaches `main` or a manual workflow dispatch. Repository write and Pages workflow access are required. No custom domain is configured, and the existing PRCC production website and DNS remain untouched. See `docs/future-domain-migration.md` for the separately approved future migration procedure.
+
+## Visual mirror
+
+`python tools/render_visual_mirror.py` renders the 15 non-home routes from the captured content and repository-local image inventory. `index.html` and `home.css` contain the individually matched home composition. The production image inventory keeps public source URLs, while `content/production-assets.json` records local asset paths and SHA-256 hashes. Contact and prayer previews contain no active submit action.

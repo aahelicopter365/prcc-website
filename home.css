@@ -1,0 +1,207 @@
+:root{--aqua:#afeeee;--gray:#ddd;--blue:#82acd0;--ink:#171717;--navy:#101010;--content:1112px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font:400 15px/1.55 Poppins,Arial,sans-serif;background:#fff}a{color:inherit}.skip{position:absolute;left:-10000px;top:1rem}.skip:focus{left:1rem;z-index:30;background:#fff;padding:.75rem}.home-header{height:204px;padding-top:56px;display:flex;flex-direction:column;align-items:center;position:relative;background:#fff}.home-logo{display:block;width:100px;height:100px}.home-logo img{display:block;width:100px;height:100px;object-fit:contain}.desktop-nav{height:25px;margin-top:18px;display:flex;align-items:center;justify-content:center;gap:24px;font-size:10px;line-height:1.2;letter-spacing:.045em;text-transform:uppercase}.desktop-nav a,.desktop-nav summary{text-decoration:none;cursor:pointer}.desktop-nav a:hover,.desktop-nav summary:hover{opacity:.65}.desktop-nav details{position:relative}.desktop-nav summary{list-style:none}.desktop-nav summary::-webkit-details-marker{display:none}.desktop-nav summary span{font-size:12px}.menu-panel{position:absolute;z-index:10;top:100%;left:-14px;min-width:190px;background:white;box-shadow:0 4px 18px #0002;padding:10px;display:grid;gap:10px;text-transform:none;letter-spacing:0}.menu-panel a{white-space:nowrap}.mobile-menu{display:none}.welcome-hero{width:min(var(--content),calc(100% - 48px));margin:56px auto 40px;display:grid;grid-template-columns:65.1% 34.9%;align-items:stretch}.welcome-hero>img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}.welcome-copy{background:var(--aqua);display:grid;place-items:center;padding:32px}.welcome-copy h1{max-width:320px;margin:0;text-align:center;font:400 28px/1.3 Adamina,Georgia,serif;text-transform:uppercase}.welcome-copy h1 span{display:inline-block;margin-top:5px}.worship-section{height:760px;background:var(--gray);position:relative;padding:38px 24px 110px}.worship-section:after{content:"";position:absolute;z-index:1;bottom:-1px;left:0;width:100%;height:76px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 76' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M0 35 C95 8 155 20 230 40 S350 70 445 34 S585 15 675 45 S830 72 925 36 S1070 12 1160 41 S1315 65 1440 26 V76 H0Z'/%3E%3C/svg%3E") center/100% 100% no-repeat}.worship-inner{max-width:var(--content);margin:auto}.worship-inner h2{margin:0 0 30px;font-size:15px;font-weight:500;letter-spacing:.07em;text-transform:uppercase}.worship-grid{display:grid;grid-template-columns:339px 1fr;gap:32px;align-items:center}.sanctuary-photo{width:100%;aspect-ratio:400/533;object-fit:cover}.worship-times{text-align:center;display:grid;gap:18px}.worship-times h3{margin:0;font-size:14px;font-weight:400}.worship-times p{margin:2px 0 0;font-size:11px}.yard-sale{height:1182px;display:grid;grid-template-columns:1fr 1fr;gap:24px;padding:40px 0 0 24px;position:relative;overflow:hidden}.yard-copy{padding:22px 8px 0 0;font-size:12px;line-height:1.35}.yard-copy h2{max-width:660px;margin:0 0 10px;font-size:21px;line-height:1.2;font-weight:400;text-transform:uppercase}.yard-copy p{margin:7px 0}.yard-copy ul{list-style:none;padding:0;margin:14px 0}.yard-copy li{margin:2px 0}.yard-art{width:100%;height:auto;object-fit:contain;align-self:start}.sermons-band{height:376px;background:linear-gradient(#0003,#0003),url("assets/010.jpg") center 46%/cover no-repeat;display:grid;place-items:center;text-align:center;color:white}.sermons-band h2{font:400 26px Adamina,Georgia,serif;text-transform:uppercase;margin:0 0 14px}.sermons-button{display:inline-block;background:#83b4d2;border-radius:4px;padding:10px 28px;color:#fff;font-size:10px;font-weight:600;text-decoration:none;letter-spacing:.05em;text-transform:uppercase}.about-section{min-height:1366px;background:var(--aqua);position:relative;padding:72px 24px 88px}.about-section:before,.about-section:after{content:"";position:absolute;left:0;width:100%;height:50px;background-repeat:no-repeat;background-size:100% 100%;pointer-events:none}.about-section:before{top:-1px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 50' preserveAspectRatio='none'%3E%3Cpath fill='%23afeeee' d='M0 50 C120 8 220 14 320 35 S500 57 610 30 S820 4 930 32 S1110 56 1220 25 S1360 12 1440 30 V50Z'/%3E%3C/svg%3E")}.about-section:after{bottom:-1px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 50' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M0 27 C120 50 220 42 320 25 S500 6 610 27 S820 48 930 20 S1110 3 1220 28 S1360 42 1440 17 V50H0Z'/%3E%3C/svg%3E")}.about-inner{max-width:var(--content);margin:auto}.about-inner>h2{font-size:14px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;margin:0 0 28px}.about-row{min-height:250px;display:grid;grid-template-columns:1fr 1fr;gap:58px;align-items:center;margin:0 auto 30px}.about-row img{display:block;width:100%;max-height:220px;object-fit:contain}.about-row div{text-align:center;padding:0 16px}.about-row h3,.nursery-inner h3{font-size:15px;font-weight:500;text-transform:capitalize;margin:0 0 12px}.about-row p,.nursery-inner p{font-size:13px;line-height:1.55;margin:0}.about-row.reverse img{grid-column:2;grid-row:1}.about-row.reverse div{grid-column:1;grid-row:1}.community-section{padding:54px 24px 48px;position:relative}.community-section:after{content:"";position:absolute;left:0;right:0;bottom:0;height:32px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 32' preserveAspectRatio='none'%3E%3Cpath fill='%2382acd0' d='M0 19 C180 40 280 3 430 19 S700 39 850 18 S1120 2 1260 19 S1380 31 1440 10 V32H0Z'/%3E%3C/svg%3E") center/100% 100% no-repeat}.community-grid{max-width:var(--content);margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}.community-grid article{background:var(--blue);text-align:center}.community-grid article>img{width:100%;height:190px;object-fit:cover;display:block}.community-grid article>div{padding:18px 24px 24px}.community-grid h2{font-size:15px;font-weight:500;margin:0 0 8px}.community-grid p,.community-grid li{font-size:11px;line-height:1.5}.community-grid p{margin:0 0 10px}.community-grid ul{padding-left:18px;text-align:left}.discover-section{min-height:760px;background:var(--blue);position:relative;display:grid;place-items:center;text-align:center;padding:72px 24px;color:#111}.discover-section:before{content:"";position:absolute;left:0;right:0;top:-1px;height:42px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 42' preserveAspectRatio='none'%3E%3Cpath fill='%2382acd0' d='M0 30 C160 3 290 9 420 26 S660 48 790 22 S1050 0 1180 23 S1360 38 1440 16 V42H0Z'/%3E%3C/svg%3E") center/100% 100% no-repeat}.discover-inner{width:min(720px,100%)}.discover-inner h2{font:400 24px/1.3 Adamina,Georgia,serif;text-transform:uppercase;margin:0 0 6px}.discover-inner>p{font-size:12px;margin:0 0 22px}.discover-links{display:grid;gap:12px}.discover-links a{background:#141414;color:#fff;text-transform:uppercase;text-decoration:none;border-radius:10px;padding:8px 16px;font-size:9px;letter-spacing:.15em;font-weight:600}.discover-links a:hover{background:#314b5c}.nursery-section{min-height:590px;position:relative;background:var(--aqua);padding:82px 24px 70px;display:grid;align-items:center}.nursery-section:before,.nursery-section:after{content:"";position:absolute;left:0;width:100%;height:50px;background-repeat:no-repeat;background-size:100% 100%}.nursery-section:before{top:-1px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 50' preserveAspectRatio='none'%3E%3Cpath fill='%23afeeee' d='M0 0H1440V22 C1300 50 1190 43 1080 23 S860 0 750 27 S540 47 420 22 S190 0 80 27 S25 35 0 24Z'/%3E%3C/svg%3E")}.nursery-section:after{bottom:-1px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 50' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M0 29 C120 4 220 10 320 29 S500 50 610 24 S820 1 930 28 S1110 51 1220 21 S1360 9 1440 27 V50H0Z'/%3E%3C/svg%3E")}.nursery-inner{max-width:var(--content);width:100%;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}.nursery-inner h2{font-size:14px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;margin:0 0 18px}.nursery-inner img{width:100%;height:220px;object-fit:cover;display:block}.nursery-inner>div:last-child{text-align:center}.nursery-inner h3{text-transform:uppercase}.scripture-section{min-height:510px;max-width:var(--content);margin:auto;padding:45px 24px;display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}.scripture-section blockquote{text-align:center;font:400 20px/1.45 Adamina,Georgia,serif;text-transform:uppercase;margin:0}.scripture-section cite{display:block;font-size:16px;font-style:normal}.scripture-section img{width:100%;max-width:540px;height:auto;justify-self:end}.home-footer{height:160px;background:#141414;color:#ddd;padding:36px max(24px,calc((100% - var(--content))/2));display:flex;justify-content:space-between;align-items:center;font-size:10px;text-transform:uppercase}.home-footer a{color:#fff;text-decoration:none;font-weight:bold}.home-footer small{font-size:9px}
+@media(max-width:700px){.home-header{height:140px;padding:10px 16px;display:flex;justify-content:center}.home-logo,.home-logo img{width:100px;height:100px}.desktop-nav{display:none}.mobile-menu{display:block;position:absolute;top:26px;left:26px;z-index:15}.mobile-menu>details>summary{width:32px;height:32px;display:grid;align-content:center;gap:5px;list-style:none;cursor:pointer}.mobile-menu>details>summary::-webkit-details-marker{display:none}.mobile-menu>details>summary span{height:2px;width:24px;background:#111}.mobile-menu nav{position:absolute;top:44px;left:-10px;width:min(300px,calc(100vw - 32px));max-height:calc(100vh - 100px);overflow:auto;display:grid;gap:0;background:#fff;box-shadow:0 8px 26px #0002;padding:10px 18px;text-transform:uppercase;font-size:13px}.mobile-menu nav>a,.mobile-menu nav details>a{display:block;padding:10px 0;text-decoration:none}.mobile-menu nav details summary{padding:10px 0;cursor:pointer;list-style:none}.mobile-menu nav details summary::-webkit-details-marker{display:none}.mobile-menu nav details>a{padding-left:18px}.welcome-hero{width:100%;margin:0 auto 0;display:flex;flex-direction:column}.welcome-hero>img{width:100%;height:auto;aspect-ratio:390/300;object-fit:cover}.welcome-copy{min-height:250px;padding:26px}.welcome-copy h1{max-width:340px;font-size:25px;line-height:1.35}.worship-section{height:auto;min-height:730px;padding:38px 24px 88px}.worship-inner h2{font-size:14px;margin-bottom:26px}.worship-grid{grid-template-columns:1fr;gap:24px}.sanctuary-photo{width:min(100%,350px);aspect-ratio:400/533;justify-self:center}.worship-times{gap:15px}.worship-times h3{font-size:14px}.yard-sale{height:auto;min-height:980px;display:flex;flex-direction:column;padding:48px 24px 170px;gap:24px}.yard-copy{padding:0;font-size:13px}.yard-copy h2{font-size:20px}.yard-art{width:100%;max-width:540px;align-self:center}.sermons-band{height:260px}.sermons-band h2{font-size:21px}.about-section{min-height:0;padding:70px 24px 82px}.about-inner>h2{margin-bottom:20px}.about-row,.about-row.reverse{grid-template-columns:1fr;gap:16px;min-height:0;margin-bottom:34px}.about-row img,.about-row.reverse img{grid-column:1;grid-row:1;max-width:100%;max-height:190px}.about-row div,.about-row.reverse div{grid-column:1;grid-row:2;padding:0 4px}.about-row p,.nursery-inner p{font-size:13px}.community-section{padding:48px 24px}.community-grid{grid-template-columns:1fr;gap:28px}.community-grid article>img{height:auto;max-height:220px}.discover-section{min-height:680px;padding:70px 24px}.discover-inner h2{font-size:21px}.discover-links{gap:10px}.nursery-section{min-height:0;padding:78px 24px 75px}.nursery-inner{grid-template-columns:1fr;gap:28px}.nursery-inner img{height:auto;max-height:240px;object-fit:cover}.nursery-inner>div:last-child{padding:0 4px}.scripture-section{min-height:0;grid-template-columns:1fr;gap:28px;padding:55px 24px}.scripture-section blockquote{font-size:18px}.scripture-section img{width:min(100%,400px);justify-self:center}.home-footer{height:auto;min-height:130px;padding:28px 24px;gap:14px;flex-wrap:wrap;font-size:9px}.home-footer small{max-width:42%}}.discover-section{min-height:860px}.scripture-section{min-height:615px}
+@media(max-width:700px){.worship-section{min-height:1400px}.yard-sale{min-height:1400px}.about-section{min-height:1800px}.community-section{min-height:1300px}.nursery-section{min-height:750px}.scripture-section{min-height:740px}}.desktop-nav{font-size:15px;letter-spacing:.18em;gap:24px}
+@media(min-width:1600px){:root{--content:1232px}.welcome-hero{grid-template-columns:minmax(0,1fr) 388px;margin-bottom:22px}.welcome-hero>img,.welcome-copy{height:610px;aspect-ratio:auto}.worship-section{height:900px;padding-top:118px}.yard-sale{height:1300px}.sermons-band{height:420px}.about-section{min-height:1480px}.community-section{min-height:650px}.discover-section{min-height:1000px}.nursery-section{min-height:662px}.scripture-section{min-height:660px}}.desktop-nav{gap:30px}
+@media(min-width:1600px){.desktop-nav{font-size:16px;letter-spacing:.23em;gap:28px}.home-footer{height:196px}}
+/* Desktop geometry and colors calibrated against the captured production homepage. */
+:root{--aqua:#afeeee;--gray:#dcdcdc;--blue:#82abce}
+.welcome-copy{background:#dff9f9}
+.welcome-copy h1{max-width:270px}
+@media(min-width:701px){
+ .welcome-hero{margin-bottom:-31px}
+ .worship-section{height:831px;padding-top:108px}
+ .sermons-band{height:333px}
+ .about-section{min-height:1233px}
+ .community-section{min-height:914px;padding:40px 24px 48px}
+ .community-grid{gap:48px}
+ .community-grid article>img{height:266px}
+ .discover-section{min-height:839px}
+ .nursery-section{min-height:506px}
+ .scripture-section{min-height:662px}
+ .home-footer{height:184px}
+}
+
+/* Responsive calibration from the production full-page captures. */
+@media (min-width:701px) and (max-width:1399px){
+ .yard-sale{height:1169px}
+ .about-section{min-height:1244px}
+ .community-section{min-height:905px}
+ .discover-section{min-height:794px}
+ .nursery-section{min-height:551px}
+ .scripture-section{min-height:502px}
+}
+@media (min-width:1600px){
+ .welcome-hero{margin-bottom:-17px}
+ .worship-section{height:877px}
+ .yard-sale{height:1207px}
+ .sermons-band{height:300px}
+ .about-section{min-height:1416px}
+ .community-section{min-height:939px}
+ .discover-section{min-height:877px}
+ .nursery-section{min-height:590px}
+ .scripture-section{min-height:555px}
+}
+@media(max-width:700px){
+ .home-header{height:128px;padding:0 16px;justify-content:center}
+ .home-logo,.home-logo img{width:80px;height:80px}
+ .mobile-menu{top:52px;left:34px}
+ .mobile-menu>details>summary{width:22px;height:22px;gap:4px}
+ .mobile-menu>details>summary span{height:2px;width:18px;background:#498b86}
+ .welcome-hero{width:calc(100% - 48px);margin:0 auto -10px;position:relative;z-index:2}
+ .welcome-hero>img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+ .welcome-copy{min-height:0;padding:46px 18px;background:#dff9f9}
+ .welcome-copy h1{max-width:270px}
+ .worship-section{min-height:1334px;padding-top:70px}
+ .yard-sale{min-height:1339px}
+ .sermons-band{height:236px}
+ .about-section{min-height:1732px}
+ .community-section{min-height:1564px;padding-top:40px}
+ .community-grid{gap:28px}
+ .community-grid article>img{height:auto;max-height:220px}
+ .discover-section{min-height:792px}
+ .nursery-section{min-height:681px}
+ .scripture-section{min-height:574px}
+ .home-footer{min-height:243px}
+}
+@media(min-width:420px) and (max-width:700px){
+ .welcome-copy{padding:50px 18px}
+ .welcome-copy h1{max-width:350px}
+ .worship-section{min-height:1293px}
+ .yard-sale{min-height:1314px}
+ .about-section{min-height:1728px}
+ .community-section{min-height:1434px}
+ .discover-section{min-height:790px}
+ .nursery-section{min-height:701px}
+ .scripture-section{min-height:604px}
+}
+
+/* Restore the production scale of the main content while preserving calibrated section boundaries. */
+.desktop-nav{margin-top:24px}
+@media(min-width:701px){
+ .worship-times h3{font-size:20px}
+ .worship-times p{font-size:14px}
+ .yard-copy{font-size:16px;line-height:1.4}
+ .yard-copy h2{font-size:28px}
+ .about-row img{max-height:none;object-fit:contain}
+ .about-inner>.about-row:nth-of-type(1) img{aspect-ratio:2/1;object-fit:cover}
+ .about-row h3,.nursery-inner h3{font-size:20px}
+ .about-row p{font-size:16px;line-height:1.5}
+ .community-grid h2{font-size:18px}
+ .community-grid p,.community-grid li{font-size:15px;line-height:1.55}
+ .discover-inner h2{font-size:32px}
+ .discover-links a{min-height:56px;padding:14px 24px;font-size:14px;display:flex;align-items:center;justify-content:center}
+ .nursery-inner img{height:266px}
+ .nursery-inner p{font-size:16px;line-height:1.5}
+}
+@media(max-width:700px){
+ .worship-times h3{font-size:16px}
+ .worship-times p{font-size:13px}
+ .discover-links a{min-height:44px;padding:11px 14px;font-size:11px}
+}
+
+@media(min-width:701px){
+ .worship-times{align-self:start;gap:48px}
+ .yard-copy{max-width:560px}
+ .about-section{padding-top:86px}
+ .about-row{margin-bottom:49px}
+}
+
+@media(min-width:701px){
+ .about-section{padding-bottom:60px}
+ .about-row{gap:48px}
+ .nursery-inner{gap:48px}
+}
+
+/* Mobile yard-sale typography and artwork match the current production capture. */
+.yard-copy>p:first-of-type{font-weight:600}
+.yard-copy h2{font-family:Adamina,Georgia,serif}
+@media(max-width:700px){
+ .yard-sale{padding-bottom:99px}
+ .sermons-band h2{font-size:28px}
+ .sermons-button{width:258px;min-height:56px;display:inline-flex;align-items:center;justify-content:center;font-size:14px;letter-spacing:.15em;border-radius:12px}
+ .about-section{padding-top:103px}
+ .about-row img,.about-row.reverse img{max-height:none;object-fit:cover}
+ .about-row:first-of-type img{aspect-ratio:2/1}
+ .about-row h3,.nursery-inner h3{font-size:22px}
+ .about-row p{font-size:16px;line-height:1.55}
+ .yard-copy{font-size:18px;line-height:1.5}
+ .yard-copy h2{max-width:100%;font-size:28px;line-height:1.12}
+ .yard-art{width:calc(100% + 32px);max-width:none;margin:230px 0 0 -16px}
+}
+@media(min-width:420px) and (max-width:700px){
+ .yard-sale{padding-bottom:105px}
+ .about-row p{font-size:16px}
+ .yard-copy h2{font-size:24px}
+ .yard-art{margin-top:282px}
+}
+
+@media(max-width:700px){
+ .sermons-band h2{margin-bottom:44px}
+ .sermons-button{color:#000}
+ .about-section:before{top:-50px}
+ .about-inner>h2{max-width:350px;font-size:16px;letter-spacing:.12em;line-height:1.45}
+}
+
+@media(max-width:700px){
+ .community-section{padding-top:12px}
+ .community-grid{gap:18px}
+ .community-grid article>img{aspect-ratio:2/1;height:auto;max-height:none;object-fit:cover}
+ .community-grid article>div{padding:26px 40px 24px}
+ .community-grid h2{font-size:22px}
+ .community-grid p,.community-grid li{font-size:16px;line-height:1.55}
+ .community-grid article:nth-child(2)>div>p:first-of-type,
+ .community-grid article:nth-child(2)>div>p:last-child{font-weight:600}
+}
+
+@media(max-width:700px){
+ .community-section{padding-bottom:0}
+ .community-grid article>div{padding-left:32px;padding-right:32px}
+ .community-grid ol{padding-left:20px}
+}
+
+@media(max-width:700px){
+ .community-grid{gap:15px}
+ .community-grid article>div{padding-top:24px}
+ .community-grid ol{max-width:250px;width:100%;margin-left:auto;margin-right:auto;padding-left:36px;text-align:left}
+ .community-grid article:nth-child(2){min-height:1092px}
+ .community-section:after{height:18px}
+}
+@media(min-width:420px) and (max-width:700px){
+ .community-grid article:nth-child(2){min-height:970px}
+}
+
+@media(max-width:700px){
+ .welcome-copy{height:320px;padding:0 18px}
+ .welcome-copy h1{max-width:none;width:100%}
+ .welcome-copy h1 .welcome-lead{display:block;width:200px;margin:0 auto}
+ .welcome-copy h1 .welcome-address{display:block;width:200px;margin:4px auto 0}
+ .worship-section:after{height:50px}
+ .worship-inner h2{max-width:300px;font-size:14px;line-height:1.5;margin-bottom:26px}
+ .sanctuary-photo{max-width:332px}
+ .worship-times{gap:26px}
+ .worship-times h3{font-size:20px}
+ .worship-times p{font-size:14px}
+}
+@media(min-width:420px) and (max-width:700px){
+ .welcome-copy{height:274px;padding:0 18px}
+ .welcome-copy h1 .welcome-lead{width:280px}
+ .welcome-copy h1 .welcome-address{width:360px}
+ .worship-inner h2{max-width:none}
+ .sanctuary-photo{max-width:none}
+}
+
+@media(max-width:419px){
+ .welcome-copy h1 .welcome-address{width:230px}
+ .worship-section{min-height:1347px}
+ .worship-inner h2{max-width:260px}
+}
+
+@media(max-width:700px){
+ .community-grid ol{max-width:none;width:100%;margin-left:0;margin-right:0;padding-left:20px;text-align:left}
+ .community-grid article:nth-child(2){min-height:1092px}
+}
+@media(min-width:420px) and (max-width:700px){
+ .community-grid article:nth-child(2){min-height:0}
+}
+
+.about-section:before{top:-50px}

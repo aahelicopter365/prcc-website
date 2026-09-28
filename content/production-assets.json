@@ -1,0 +1,487 @@
+{
+  "source": "https://prccgreensboro.org/",
+  "asset_host": "https://img1.wsimg.com",
+  "limits": {
+    "each": 6000000,
+    "total": 25000000
+  },
+  "downloaded_bytes": 16642046,
+  "assets": [
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Yard%20Sale2.jpg",
+      "source_name": "Yard Sale2.jpg",
+      "local_path": "assets/production/028.jpg",
+      "bytes": 64835,
+      "sha256": "be35f6f978428492b31cdafe146d0d0feb15c49a21063965f1adaf41ee37660b",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Love%20others.webp",
+      "source_name": "Love others.webp",
+      "local_path": "assets/production/029.webp",
+      "bytes": 174280,
+      "sha256": "f9ac6cd6fe86a3bbbaa8ed1138f3c41795e17f46e7dbe8175c2a282972da1d77",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Ministries.jpg",
+      "source_name": "Ministries.jpg",
+      "local_path": "assets/production/030.jpg",
+      "bytes": 49911,
+      "sha256": "9d89c55d8de16f7df79c7ca8cb6d30770eb5d888e83dbbcf90ae8e3a69ba13f5",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Outreach%20Ministries.jpg",
+      "source_name": "Outreach Ministries.jpg",
+      "local_path": "assets/production/031.jpg",
+      "bytes": 39126,
+      "sha256": "32d16843a961fc14567b8f2768a8b4945911bb6b9ee2a7c53ae4416c8a4a5beb",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20230115_085410.jpg",
+      "source_name": "20230115_085410.jpg",
+      "local_path": "assets/production/032.jpg",
+      "bytes": 424263,
+      "sha256": "ed039466b1b637c27640f1e742b5bcda22fbe8fe279fa6518067c0b0b9849985",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20251009_114525.jpg",
+      "source_name": "20251009_114525.jpg",
+      "local_path": "assets/production/033.jpg",
+      "bytes": 864399,
+      "sha256": "cbd7a8febd9d1052c8e2322a2d0ee2686c713f377f93bf532dd120f0f21ad723",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Gods%20Love%20Shown.jpg",
+      "source_name": "Gods Love Shown.jpg",
+      "local_path": "assets/production/034.jpg",
+      "bytes": 44032,
+      "sha256": "89a9448f5f69781fccb32fedbe5f4551fe601bebd66a0edb363f11b70a2a57ed",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/6iyokk6MT.png",
+      "source_name": "6iyokk6MT.png",
+      "local_path": "assets/production/035.png",
+      "bytes": 2064143,
+      "sha256": "f400d572d828cb2a1aa672867c2d4178b056145358302a28ae72672f8e777139",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Christmas%20Child.png",
+      "source_name": "Christmas Child.png",
+      "local_path": "assets/production/036.png",
+      "bytes": 19733,
+      "sha256": "653a9ca63275c9f3481bd5bc488de86830e3d092e968d2409336313c3978bc1f",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/1065988.jpg",
+      "source_name": "1065988.jpg",
+      "local_path": "assets/production/037.jpg",
+      "bytes": 45836,
+      "sha256": "04a32bcf031068eb1e0bc1cdea3495b051dcea0a136c90ef0b5cbda7fd17bc36",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/799587.jpg",
+      "source_name": "799587.jpg",
+      "local_path": "assets/production/038.jpg",
+      "bytes": 37473,
+      "sha256": "5ff82f02b8a787f06f594331d0a1af6eda4308cc7706be1fdc2946d390288d30",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-12bdc30.png",
+      "source_name": "blob-12bdc30.png",
+      "local_path": "assets/production/039.png",
+      "bytes": 127470,
+      "sha256": "f1c41de165d20d79eef5ee88931b3cb4040d2405b84e34c77739197bdff32b73",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/GUM.jpg",
+      "source_name": "GUM.jpg",
+      "local_path": "assets/production/040.jpg",
+      "bytes": 10523,
+      "sha256": "5015ff01974eb7c219ee72c71da06e1ffb945b6314983ca9af6b968ca2b7498e",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/c4f-logo-2-06e3312.png",
+      "source_name": "c4f-logo-2-06e3312.png",
+      "local_path": "assets/production/041.png",
+      "bytes": 2936,
+      "sha256": "8c8713e71a06d1e3799611a043d70daf25be3ac8c31e2e6371b219429c115911",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/7%20homes.png",
+      "source_name": "7 homes.png",
+      "local_path": "assets/production/042.png",
+      "bytes": 333273,
+      "sha256": "7f0d68147cc6308e5fd976a4a3bc46661900e00975fc42d4b498458adc78425a",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/ywam-logo-min.jpg",
+      "source_name": "ywam-logo-min.jpg",
+      "local_path": "assets/production/043.jpg",
+      "bytes": 8843,
+      "sha256": "ed01b3e65ad8c50153ed7aa6c51564363a2c17661cf47125f1dd0d59cfb9e100",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Compassion-1000x500.jpg",
+      "source_name": "Compassion-1000x500.jpg",
+      "local_path": "assets/production/044.jpg",
+      "bytes": 41584,
+      "sha256": "4c4a1a2ab50f8d015353ec39ee233c391c079094bea57df648515dd54411fbf2",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IL-FreedomHouse-2023.png",
+      "source_name": "IL-FreedomHouse-2023.png",
+      "local_path": "assets/production/045.png",
+      "bytes": 80537,
+      "sha256": "ff627999ecea82b95d70f06410427b374139ca6bde975cba2083748b1b7c136c",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/wsrm_logo-header@2x.png",
+      "source_name": "wsrm_logo-header@2x.png",
+      "local_path": "assets/production/046.png",
+      "bytes": 29177,
+      "sha256": "3bafda3ef0b7ca27fd8c7162eff204f6068ab49ceaac6a963389ac018a74cebd",
+      "pages": [
+        "/missions/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Watch%20over%20flock.jpg",
+      "source_name": "Watch over flock.jpg",
+      "local_path": "assets/production/047.jpg",
+      "bytes": 38556,
+      "sha256": "614cb3f83c30495f231e218f12c133696ed734a8e55af3d084a3f71fe7b776d7",
+      "pages": [
+        "/weekly-update/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Weekly%20Message.jpg",
+      "source_name": "Weekly Message.jpg",
+      "local_path": "assets/production/048.jpg",
+      "bytes": 49677,
+      "sha256": "165f754b2b49d6af7e7999b64fe54795001c9a4a0ebadab6dab155e13f168373",
+      "pages": [
+        "/weekly-update/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Sneak%20Peek.jpg",
+      "source_name": "Sneak Peek.jpg",
+      "local_path": "assets/production/049.jpg",
+      "bytes": 58499,
+      "sha256": "d94006ba7071ab5248efe5b7f9a5dc635f2429acb4e34711518a5ad80ac71990",
+      "pages": [
+        "/weekly-update/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Candle2.jpg",
+      "source_name": "Candle2.jpg",
+      "local_path": "assets/production/050.jpg",
+      "bytes": 73851,
+      "sha256": "99d9caffd67439807c501256d0755d2c35ab085f3bd6d4c17657b54d3b70fb60",
+      "pages": [
+        "/weekly-update/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Encouragement.jpg",
+      "source_name": "Encouragement.jpg",
+      "local_path": "assets/production/051.jpg",
+      "bytes": 136079,
+      "sha256": "f75131335f68c19aa7536159bd696a47fcc24f6e01df1ef5460ce4a29eac90e6",
+      "pages": [
+        "/weekly-update/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/small%20groups3.jpg",
+      "source_name": "small groups3.jpg",
+      "local_path": "assets/production/052.jpg",
+      "bytes": 151735,
+      "sha256": "2d413698bf953acf153784bf3fa2d531ba9ee2458f3900f8a1674c71110288da",
+      "pages": [
+        "/small-groups/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Womens%20Fellowship.jpg",
+      "source_name": "Womens Fellowship.jpg",
+      "local_path": "assets/production/053.jpg",
+      "bytes": 85118,
+      "sha256": "46d145efcfeed6777bdd82b03150e0415c3eb534e30a1b6e9621b37198c46194",
+      "pages": [
+        "/small-groups/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/images-8bfa7ef.jpg",
+      "source_name": "images-8bfa7ef.jpg",
+      "local_path": "assets/production/054.jpg",
+      "bytes": 14849,
+      "sha256": "bb5d59e217398ab65382ed21f34e524113058e966362ed872e222ca257f76954",
+      "pages": [
+        "/children-and-youth/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Kids%20Sermon.jpg",
+      "source_name": "Kids Sermon.jpg",
+      "local_path": "assets/production/055.jpg",
+      "bytes": 42031,
+      "sha256": "07cddb6cb7226b9e0277bc8e9baaf7cf4c65d3704f1bca8f3a87a313162ac00f",
+      "pages": [
+        "/children-and-youth/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Kids%20Sunday%20School.jpg",
+      "source_name": "Kids Sunday School.jpg",
+      "local_path": "assets/production/056.jpg",
+      "bytes": 89502,
+      "sha256": "2b282f07ca1bf472c0c4567d09d5ead38e1b5eaf96027cd66b11de37ddd4ada7",
+      "pages": [
+        "/children-and-youth/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/image000007.jpg",
+      "source_name": "image000007.jpg",
+      "local_path": "assets/production/057.jpg",
+      "bytes": 155086,
+      "sha256": "bf81f5bbe69981f389cfe00458f928f32deda58649b9603b5f92c45935669397",
+      "pages": [
+        "/children-and-youth/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Logo.jpg",
+      "source_name": "Logo.jpg",
+      "local_path": "assets/production/058.jpg",
+      "bytes": 19523,
+      "sha256": "90e57565c8a6977db80c5cc8dc8b1710d9827b9d1b64242df8a656df3d2e5bc7",
+      "pages": [
+        "/children-and-youth/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_20260613_112514-0bc6fc9.jpg",
+      "source_name": "IMG_20260613_112514-0bc6fc9.jpg",
+      "local_path": "assets/production/059.jpg",
+      "bytes": 388828,
+      "sha256": "ef26c2bc8eb6d2ae8090b3f8de2217fb45b0b7d27dab8ce810b7bc51ccce834b",
+      "pages": [
+        "/children-and-youth/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1112-9ce103e.jpg",
+      "source_name": "IMG_1112-9ce103e.jpg",
+      "local_path": "assets/production/060.jpg",
+      "bytes": 1772847,
+      "sha256": "fc5622b8ff8ad1a0bf2a2aaed5d5f9f091c637e2efc45fba6339b442d7823072",
+      "pages": [
+        "/children-and-youth/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1114.jpg",
+      "source_name": "IMG_1114.jpg",
+      "local_path": "assets/production/061.jpg",
+      "bytes": 421345,
+      "sha256": "e23994c95814c156fab16824ea1af9111dd2d5de87e36646e470b16b0cf3cd3c",
+      "pages": [
+        "/children-and-youth/",
+        "/event-recap/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1048.jpg",
+      "source_name": "IMG_1048.jpg",
+      "local_path": "assets/production/062.jpg",
+      "bytes": 775445,
+      "sha256": "e5d2f338271396b77c23a7bb5a9785d43664377934065a1bbab84c34259fe37b",
+      "pages": [
+        "/children-and-youth/",
+        "/event-recap/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1152.jpg",
+      "source_name": "IMG_1152.jpg",
+      "local_path": "assets/production/063.jpg",
+      "bytes": 600858,
+      "sha256": "374137d483493b4cb1c738e8b6d0e9b690d382467c5b76e6db4ee30a6d2c672b",
+      "pages": [
+        "/children-and-youth/",
+        "/event-recap/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Devote%20To%20Prayer.png",
+      "source_name": "Devote To Prayer.png",
+      "local_path": "assets/production/064.png",
+      "bytes": 62389,
+      "sha256": "7575da2e9f7e191d9c16088785290bb7a51b32e61e672ca0e8950d25d902d117",
+      "pages": [
+        "/prayer/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1094.jpg",
+      "source_name": "IMG_1094.jpg",
+      "local_path": "assets/production/065.jpg",
+      "bytes": 662450,
+      "sha256": "cc30f005ce4afb6b6e0d5c14e3382566057afb26f076b2f3b92cb1a21a5da83b",
+      "pages": [
+        "/event-recap/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1112.jpg",
+      "source_name": "IMG_1112.jpg",
+      "local_path": "assets/production/066.jpg",
+      "bytes": 1772847,
+      "sha256": "fc5622b8ff8ad1a0bf2a2aaed5d5f9f091c637e2efc45fba6339b442d7823072",
+      "pages": [
+        "/event-recap/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260617_183429-abe1380.jpg",
+      "source_name": "20260617_183429-abe1380.jpg",
+      "local_path": "assets/production/067.jpg",
+      "bytes": 896021,
+      "sha256": "fc21a2c715d0abad90a8f6c563dd73822a9606de030a1a9eedf749b8614185d3",
+      "pages": [
+        "/event-recap/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1047.jpg",
+      "source_name": "IMG_1047.jpg",
+      "local_path": "assets/production/068.jpg",
+      "bytes": 715863,
+      "sha256": "02cc65a3bebfda05976b0c41ddfb2803a3241bf5f2c3d08bf687d082b990f7d3",
+      "pages": [
+        "/event-recap/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1169.jpg",
+      "source_name": "IMG_1169.jpg",
+      "local_path": "assets/production/069.jpg",
+      "bytes": 469467,
+      "sha256": "4c1cc69c9f37393c3da290fc33c79d36d93475f2b70b1aff1911e0e1c939391f",
+      "pages": [
+        "/event-recap/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260615_193602.jpg",
+      "source_name": "20260615_193602.jpg",
+      "local_path": "assets/production/070.jpg",
+      "bytes": 867808,
+      "sha256": "af25191fcd1942f19a6d85989a61ac2b4798ddd7fef2f022fff83dc0ab9d17be",
+      "pages": [
+        "/event-recap/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1100.jpg",
+      "source_name": "IMG_1100.jpg",
+      "local_path": "assets/production/071.jpg",
+      "bytes": 1024116,
+      "sha256": "654dbbc4e3c8bd4ef2ba781817f928a576ab034adbf66b3f1a35ce2c4ae68b00",
+      "pages": [
+        "/event-recap/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1166.jpg",
+      "source_name": "IMG_1166.jpg",
+      "local_path": "assets/production/072.jpg",
+      "bytes": 834882,
+      "sha256": "cea180230eb7cc511c213f4f142dab892306e6343ac8def71b0d5e311d0aa4b7",
+      "pages": [
+        "/event-recap/"
+      ]
+    },
+    {
+      "source_url": "https://prccgreensboro.org/",
+      "source_name": "Our Community photo crop from captured production page",
+      "local_path": "assets/production/073.png",
+      "bytes": 197348,
+      "sha256": "bb8093f13692adcce72d41a813df19736c9aa8126aec8cd1c214fdef5d93f3da",
+      "pages": [
+        "/"
+      ],
+      "derived_from": {
+        "source_capture": "public production homepage, 1440x7456 full-page screenshot",
+        "crop_pixels": [
+          164,
+          4391,
+          696,
+          4657
+        ],
+        "rendered_dimensions": [
+          532,
+          266
+        ]
+      }
+    }
+  ]
+}
