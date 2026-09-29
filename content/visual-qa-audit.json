@@ -5,14 +5,16 @@
   "staging": "https://aahelicopter365.github.io/prcc-website/",
   "repository": "https://github.com/aahelicopter365/prcc-website",
   "deployment_verification": {
-    "deployed_commit": "e3881b37d9911c71862e09b05e0a500a6087c722",
-    "workflow": "https://github.com/aahelicopter365/prcc-website/actions/runs/36605904571",
+    "deployed_commit": "a9caae636b82dc0bef7025cf2076ab5eb2a08c72",
+    "workflow": "https://github.com/aahelicopter365/prcc-website/actions/runs/36608195262",
     "workflow_result": "success",
     "live_root_http_status": 200,
     "live_routes": "16/16 HTTP 200; one H1 per route",
     "same_project_assets": "79/79 HTTP 200",
     "small_groups_live_browser": "PASS; all three group images loaded at 1112x556 desktop and 342x171 mobile; no horizontal overflow",
     "recovered_photo_hashes": "PASS; both published image files match the verified original source files",
+    "event_calendar_live_browser": "PASS; full clothing text, $12.86 Explorer Bible price, and three external destinations verified",
+    "sermons_live_browser": "PASS; six Vimeo player IDs verified on desktop and mobile",
     "verified_at": "2026-09-29"
   },
   "method": [
