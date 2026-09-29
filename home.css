@@ -64,6 +64,36 @@
  .scripture-section{min-height:574px}
  .home-footer{min-height:243px}
 }
+
+/* Human visual QA corrections: active navigation and readable supporting copy. */
+.desktop-nav>a[aria-current="page"],.desktop-nav>details>summary[aria-current="location"]{position:relative}
+.desktop-nav>a[aria-current="page"]::after,.desktop-nav>details>summary[aria-current="location"]::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:1px;background:#111}
+.desktop-nav summary span{font-size:17px;line-height:1;vertical-align:middle}
+.desktop-nav summary[aria-current="location"]{text-decoration:underline;text-underline-offset:6px}
+.desktop-nav a:focus-visible,.desktop-nav summary:focus-visible,.mobile-menu summary:focus-visible{outline:2px solid #426d94;outline-offset:4px}
+.welcome-copy h1 .welcome-address{font-size:clamp(16px,1.7vw,20px);line-height:1.45}
+.worship-inner h2{font-size:17px}
+.worship-times h3{font-size:16px;line-height:1.4}
+.worship-times p{font-size:14px;line-height:1.45}
+.community-grid article:nth-child(2)>div{text-align:left}
+.community-grid article:nth-child(2)>div>p{font-size:14px;line-height:1.6}
+.community-grid article:nth-child(2) ol{padding-left:24px;text-align:left}
+.community-grid article:nth-child(2) li{font-size:14px;line-height:1.55;margin:.45em 0}
+.sermons-button{font-size:14px;padding:12px 30px}
+.discover-links a[href*="womens-fellowship"]{scroll-margin-top:1rem}
+.facebook-link{display:inline-grid;width:26px;height:26px;border-radius:50%;place-items:center;background:#fff;color:#111;text-decoration:none}
+.facebook-link svg{display:block;width:18px;height:18px;fill:currentColor}
+.scripture-section img{display:block}
+.home-footer .facebook-link{width:28px;height:28px;background:#eee;color:#141414}
+.home-footer .facebook-link svg{width:19px;height:19px}
+@media(max-width:700px){
+ .welcome-copy h1 .welcome-address{font-size:17px}
+ .worship-inner h2{font-size:16px}
+ .worship-times h3{font-size:16px}
+ .worship-times p{font-size:14px}
+ .community-grid article:nth-child(2)>div>p,.community-grid article:nth-child(2) li{font-size:14px}
+ .desktop-nav>a[aria-current="page"]::after,.desktop-nav>details>summary[aria-current="location"]::after{display:none}
+}
 @media(min-width:420px) and (max-width:700px){
  .welcome-copy{padding:50px 18px}
  .welcome-copy h1{max-width:350px}
@@ -209,9 +239,9 @@
 
 .worship-section:after{height:120px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 120' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M0 48 C100 25 175 16 270 40 S440 82 590 45 S800 12 950 42 S1130 80 1280 48 S1390 31 1440 37 V120H0Z'/%3E%3C/svg%3E")}
 
-/* The production scripture panel is text-only on desktop and stacks its image on mobile. */
+/* Match the production scripture panel’s text-and-image desktop layout. */
 @media(min-width:701px){
- .scripture-section img{display:none}
+ .scripture-section img{display:block;width:min(100%,506px);height:auto;justify-self:end}
  .scripture-section blockquote{max-width:560px;font-size:28px;line-height:1.3}
  .scripture-section cite{font-size:28px}
  .home-footer .footer-credit{display:grid;gap:3px;text-align:center}

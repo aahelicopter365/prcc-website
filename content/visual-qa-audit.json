@@ -1,0 +1,445 @@
+{
+  "title": "PRCC human visual QA correction audit",
+  "audit_date": "2026-09-29",
+  "reference": "https://prccgreensboro.org/",
+  "staging": "https://aahelicopter365.github.io/prcc-website/",
+  "repository": "https://github.com/aahelicopter365/prcc-website",
+  "method": [
+    "Compared the saved production route/image inventory and route screenshots against generated staging markup.",
+    "Checked all 16 routes at desktop (1440px) and mobile (390px) under a project subpath.",
+    "Exercised dropdown dismissal, FAQ accordion, local-only form previews, and both carousels.",
+    "Attempted one bounded read-only production browser fetch for the Event Calendar and Sermons; both timed out."
+  ],
+  "route_audit": [
+    {
+      "slug": "index",
+      "classifications": [
+        "MATCH",
+        "INTENTIONAL_IMPROVEMENT"
+      ],
+      "notes": [
+        "Corrected the visible address and service typography; restored the captured Romans 5:8 image beside the verse; preserved the yard-sale artwork."
+      ],
+      "source_items_compared": 105,
+      "captured_production_image_elements": 11,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "INTENTIONAL_IMPROVEMENT",
+        "lists": "MATCH",
+        "images": "MATCH",
+        "links": "INTENTIONAL_IMPROVEMENT",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": null,
+        "visible_contact_information": "INTENTIONAL_IMPROVEMENT"
+      }
+    },
+    {
+      "slug": "contact-us",
+      "classifications": [
+        "INTENTIONAL_IMPROVEMENT",
+        "STAGING_ONLY_FUNCTION"
+      ],
+      "notes": [
+        "Address corrected; standard Google map iframe verified to render locally; form validates only in-browser and never submits; false reCAPTCHA copy removed."
+      ],
+      "source_items_compared": 64,
+      "captured_production_image_elements": 3,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "INTENTIONAL_IMPROVEMENT",
+        "lists": null,
+        "images": "MATCH",
+        "links": "MATCH",
+        "embeds": "MATCH",
+        "carousel_slides": null,
+        "buttons_forms": "STAGING_ONLY_FUNCTION",
+        "visible_contact_information": "MATCH"
+      }
+    },
+    {
+      "slug": "ministry-staff",
+      "classifications": [
+        "MATCH",
+        "INTENTIONAL_IMPROVEMENT"
+      ],
+      "notes": [
+        "Doreen image and Kate description are present; staff text is no longer truncated."
+      ],
+      "source_items_compared": 74,
+      "captured_production_image_elements": 8,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "INTENTIONAL_IMPROVEMENT",
+        "lists": null,
+        "images": "MATCH",
+        "links": "MATCH",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": null,
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "core-values",
+      "classifications": [
+        "INTENTIONAL_IMPROVEMENT"
+      ],
+      "notes": [
+        "All captured values are shown without an expander and aligned left."
+      ],
+      "source_items_compared": 66,
+      "captured_production_image_elements": 4,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "INTENTIONAL_IMPROVEMENT",
+        "lists": null,
+        "images": "MATCH",
+        "links": "MATCH",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": "INTENTIONAL_IMPROVEMENT",
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "missions",
+      "classifications": [
+        "MATCH",
+        "INTENTIONAL_IMPROVEMENT"
+      ],
+      "notes": [
+        "Captured mission images are rendered; spacing and readable text overrides are scoped to this page."
+      ],
+      "source_items_compared": 95,
+      "captured_production_image_elements": 15,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "MATCH",
+        "lists": null,
+        "images": "MATCH",
+        "links": "MATCH",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": null,
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "church-history",
+      "classifications": [
+        "MATCH"
+      ],
+      "notes": [
+        "Captured page content and image retained."
+      ],
+      "source_items_compared": 55,
+      "captured_production_image_elements": 3,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "MATCH",
+        "lists": null,
+        "images": "MATCH",
+        "links": "MATCH",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": null,
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "faqs",
+      "classifications": [
+        "INTENTIONAL_IMPROVEMENT",
+        "STAGING_ONLY_FUNCTION"
+      ],
+      "notes": [
+        "All captured answers are retained in an accessible single-open accordion with darker readable text."
+      ],
+      "source_items_compared": 57,
+      "captured_production_image_elements": 2,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "MATCH",
+        "lists": null,
+        "images": "MATCH",
+        "links": "MATCH",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": "STAGING_ONLY_FUNCTION",
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "weekly-update",
+      "classifications": [
+        "MATCH",
+        "INTENTIONAL_IMPROVEMENT"
+      ],
+      "notes": [
+        "Traditions Explained content remains; Words to Encourage spacing is reduced."
+      ],
+      "source_items_compared": 77,
+      "captured_production_image_elements": 7,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "MATCH",
+        "lists": "MATCH",
+        "images": "MATCH",
+        "links": "MATCH",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": null,
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "small-groups",
+      "classifications": [
+        "MATCH",
+        "MISSING_FROM_STAGING"
+      ],
+      "notes": [
+        "Women’s Fellowship image and stable anchor are present. The requested men’s and women’s group photos have no corresponding source URLs/assets in the captured production inventory; the saved production screenshot shows blank image regions there."
+      ],
+      "source_items_compared": 65,
+      "captured_production_image_elements": 4,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "MATCH",
+        "lists": null,
+        "images": "MISSING_FROM_STAGING",
+        "links": "MATCH",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": null,
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "children-and-youth",
+      "classifications": [
+        "MATCH",
+        "INTENTIONAL_IMPROVEMENT"
+      ],
+      "notes": [
+        "Source capture shows five actual VBS photos and one Rainforest Falls logo placeholder. Staging uses all five photos, removes the logo placeholder, and supports auto-rotation, previous/next, thumbnails, and touch gestures."
+      ],
+      "source_items_compared": 74,
+      "captured_production_image_elements": 15,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "MATCH",
+        "lists": "MATCH",
+        "images": "INTENTIONAL_IMPROVEMENT",
+        "links": "MATCH",
+        "embeds": null,
+        "carousel_slides": "INTENTIONAL_IMPROVEMENT",
+        "buttons_forms": "STAGING_ONLY_FUNCTION",
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "prayer",
+      "classifications": [
+        "MATCH",
+        "STAGING_ONLY_FUNCTION"
+      ],
+      "notes": [
+        "Prayer Priority image and Prayer Meetings content are present; form fields validate locally without submission or reCAPTCHA claims."
+      ],
+      "source_items_compared": 62,
+      "captured_production_image_elements": 3,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "MATCH",
+        "lists": null,
+        "images": "MATCH",
+        "links": "MATCH",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": "STAGING_ONLY_FUNCTION",
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "find-peace-in-christ",
+      "classifications": [
+        "INTENTIONAL_IMPROVEMENT",
+        "STAGING_ONLY_FUNCTION"
+      ],
+      "notes": [
+        "The directed “Finding a Place in Christ” section is omitted; Contact Us heading and local email/message form are functional; no submissions are sent."
+      ],
+      "source_items_compared": 87,
+      "captured_production_image_elements": 7,
+      "content_elements": {
+        "headings": "INTENTIONAL_IMPROVEMENT",
+        "paragraphs": "INTENTIONAL_IMPROVEMENT",
+        "lists": null,
+        "images": "MATCH",
+        "links": "MATCH",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": "STAGING_ONLY_FUNCTION",
+        "visible_contact_information": "MATCH"
+      }
+    },
+    {
+      "slug": "online-giving",
+      "classifications": [
+        "MATCH",
+        "INTENTIONAL_IMPROVEMENT"
+      ],
+      "notes": [
+        "Existing OnRealm destination is preserved and opens externally in a new tab."
+      ],
+      "source_items_compared": 51,
+      "captured_production_image_elements": 2,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "MATCH",
+        "lists": null,
+        "images": "MATCH",
+        "links": "INTENTIONAL_IMPROVEMENT",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": "MATCH",
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "sermons",
+      "classifications": [
+        "MISSING_FROM_STAGING"
+      ],
+      "notes": [
+        "Seven sermon titles/passages render, but production Vimeo embed IDs were absent from captured source/repository material. Read-only production navigation timed out; no ID was guessed."
+      ],
+      "source_items_compared": 62,
+      "captured_production_image_elements": 2,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "MATCH",
+        "lists": null,
+        "images": "MATCH",
+        "links": "MATCH",
+        "embeds": "MISSING_FROM_STAGING",
+        "carousel_slides": null,
+        "buttons_forms": null,
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "event-calendar",
+      "classifications": [
+        "INTENTIONAL_IMPROVEMENT",
+        "MISSING_FROM_STAGING",
+        "STALE_STAGING"
+      ],
+      "notes": [
+        "Ongoing source-backed collection details render directly. Dated Sep 23–27, 2026 entries were omitted because they were past as of 2026-09-29. The exact Amazon “here” URL and remaining Fall/Winter sentence could not be recovered: archived text is truncated and one direct read-only request timed out."
+      ],
+      "source_items_compared": 119,
+      "captured_production_image_elements": 3,
+      "content_elements": {
+        "headings": "STALE_STAGING",
+        "paragraphs": "MISSING_FROM_STAGING",
+        "lists": null,
+        "images": "MATCH",
+        "links": "MISSING_FROM_STAGING",
+        "embeds": null,
+        "carousel_slides": null,
+        "buttons_forms": "INTENTIONAL_IMPROVEMENT",
+        "visible_contact_information": null
+      }
+    },
+    {
+      "slug": "event-recap",
+      "classifications": [
+        "MATCH",
+        "INTENTIONAL_IMPROVEMENT"
+      ],
+      "notes": [
+        "All 11 photo assets captured for Event Recap are included in source order; controls and auto-rotation work."
+      ],
+      "source_items_compared": 52,
+      "captured_production_image_elements": 20,
+      "content_elements": {
+        "headings": "MATCH",
+        "paragraphs": "INTENTIONAL_IMPROVEMENT",
+        "lists": null,
+        "images": "MATCH",
+        "links": "MATCH",
+        "embeds": null,
+        "carousel_slides": "MATCH",
+        "buttons_forms": "STAGING_ONLY_FUNCTION",
+        "visible_contact_information": null
+      }
+    }
+  ],
+  "browser_verification": {
+    "routes": 16,
+    "viewports": [
+      "1440x900",
+      "390x844"
+    ],
+    "http_status": "PASS (32/32 local route/viewport checks returned 200)",
+    "one_h1_per_route": "PASS",
+    "horizontal_overflow": "NONE",
+    "broken_images": "NONE",
+    "page_errors": "NONE",
+    "dropdown_open_close_escape": "PASS",
+    "faq_single_open": "PASS",
+    "contact_and_prayer_forms": "LOCAL_PREVIEW_ONLY",
+    "find_peace_form_toggle": "PASS",
+    "children_gallery": {
+      "source_backed_photo_slides": 5,
+      "manual_controls": "PASS",
+      "auto_rotation": "PASS"
+    },
+    "event_recap_gallery": {
+      "source_backed_photo_slides": 11,
+      "manual_controls": "PASS",
+      "auto_rotation": "PASS"
+    },
+    "map_iframe": "Google Maps tiles and pin rendered in the local browser"
+  },
+  "remaining_source_data": [
+    {
+      "classification": "MISSING_FROM_STAGING",
+      "item": "Current sermon Vimeo player URLs/IDs",
+      "required_human_action": "Provide the authoritative current Vimeo links or embed codes for the seven listed sermons."
+    },
+    {
+      "classification": "MISSING_FROM_STAGING",
+      "item": "Event Calendar Amazon Bible destination and full Fall/Winter clothing-drive continuation",
+      "required_human_action": "Provide the exact Amazon destination and the complete remaining source sentence, or make the current production detail controls readable to the source capture."
+    },
+    {
+      "classification": "MISSING_FROM_STAGING",
+      "item": "Men’s and women’s small-group photos",
+      "required_human_action": "Provide the authoritative photo files/source URLs if those photos should exist; captured production currently shows blank photo regions and the inventory contains no matching assets."
+    }
+  ],
+  "evidence_directory": "../prcc-visual-evidence/qa-correction-20260929",
+  "image_inventory": {
+    "production_image_records": 109,
+    "status_counts": {
+      "MATCH": 90,
+      "PRODUCTION_ONLY_FUNCTION": 16,
+      "INTENTIONAL_IMPROVEMENT": 3
+    },
+    "fields": [
+      "production page",
+      "production asset",
+      "staging local asset",
+      "staging usage",
+      "status"
+    ],
+    "matching_or_explained_records": 109,
+    "unmatched_records": 0,
+    "human_requested_unrecovered_assets": 2,
+    "unmatched_captured_records": 0
+  }
+}

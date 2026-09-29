@@ -387,3 +387,90 @@
  .children-gallery-thumbs{gap:8px}
  .children-gallery-thumbs img{width:38px;height:32px}
 }
+
+/* Human visual QA corrections. Keep the established layouts while repairing focus,
+   contrast, omitted source content, and the small supporting text sizes. */
+.desktop-nav>a[aria-current="page"],.desktop-nav>details>summary[aria-current="location"]{position:relative}
+.desktop-nav>a[aria-current="page"]::after,.desktop-nav>details>summary[aria-current="location"]::after{content:"";position:absolute;left:0;right:0;bottom:-7px;height:1px;background:#111}
+.desktop-nav summary span{font-size:17px;line-height:1;vertical-align:middle}
+.desktop-nav summary[aria-current="location"]{text-decoration:underline;text-underline-offset:6px}
+.desktop-nav a:focus-visible,.desktop-nav summary:focus-visible,.mobile-menu summary:focus-visible{outline:2px solid #426d94;outline-offset:4px}
+.page-footer .facebook-link{display:inline-grid;width:28px;height:28px;border-radius:50%;place-items:center;background:#fff;color:#111;text-decoration:none}
+.page-footer .facebook-link svg{display:block;width:19px;height:19px;fill:currentColor}
+.site-header [aria-current="page"]{text-decoration:underline;text-underline-offset:6px}
+.site-header details[open]>.menu-panel{padding-top:12px}
+.contact-map iframe{display:block;width:100%;height:100%;border:0}
+.contact-map>.contact-directions{left:auto;right:22px;top:16px}
+.contact-form-column form{row-gap:14px;column-gap:16px}
+.contact-form-column label{gap:6px;font-size:15px;line-height:1.45}
+.contact-form-column input,.contact-form-column textarea{padding:12px 14px}
+.contact-form-column .contact-helper{font-size:18px;line-height:1.45;color:#111}
+.contact-form-column button,.local-preview-form button{cursor:pointer;font-size:14px;font-weight:600}
+.submission-note{grid-column:1/-1;color:#111;font-size:13px;line-height:1.5;margin:0}
+.page-contact-us .contact-social svg{width:19px;height:19px}
+.page-contact-us .contact-social .facebook-link{display:inline-grid;width:32px;height:32px;border-radius:50%;place-items:center;background:#111;color:#fff;text-decoration:none}
+.page-contact-us .contact-social .facebook-link svg{display:block;fill:currentColor}
+.faq-row>div{padding:0 24px 20px 0;color:#171717;font-size:16px;line-height:1.7}
+.faq-content>p{color:#222;font-size:16px;line-height:1.65}
+.page-prayer .prayer-ministry p,.page-prayer .prayer-meetings p,.page-prayer .prayer-request p{font-size:16px;line-height:1.65;color:#171717}
+.page-prayer .prayer-priority>img{display:block;width:min(100%,760px);height:auto;max-height:none;object-fit:contain;margin:0 auto 24px}
+.page-prayer .prayer-priority{margin-bottom:30px}
+.page-prayer .prayer-request input,.page-prayer .prayer-request textarea{font-size:16px}
+.page-children-and-youth .children-card p,.page-children-and-youth .children-vbs p{font-size:15px;line-height:1.6;color:#171717}
+.page-children-and-youth .children-vbs-intro h2{font-size:24px}
+.page-children-and-youth .children-gallery-title{height:auto;min-height:817px;padding-bottom:35px}
+.children-gallery-main{height:600px}
+.children-gallery-thumbs{flex-wrap:wrap;max-width:950px;margin-left:auto;margin-right:auto}
+.page-missions .mission-responsive-image>img{display:block}
+.page-missions .mission-card p{font-size:14px;line-height:1.6;color:#171717}
+.page-missions .mission-card h2{font-size:17px}
+.page-ministry-staff .staff-card:first-child img{visibility:visible}
+.staff-card p{font-size:15px;line-height:1.65;color:#171717}
+.page-core-values .values-card>div{text-align:left}
+.page-core-values .values-card p{font-size:15px;line-height:1.65;color:#171717}
+.page-core-values .values-card details{display:none}
+.page-small-groups #womens-fellowship{scroll-margin-top:2rem}
+.page-small-groups .small-meeting:nth-child(3){margin-top:28px;margin-bottom:24px}
+.page-small-groups .small-meeting:nth-child(3) img{margin:0}
+.page-weekly-update .weekly-encouragement{margin-top:0;padding-top:30px}
+.page-event-recap .recap-playground,.page-event-recap .recap-vbs{padding-top:30px}
+.page-event-recap .recap-playground h1,.page-event-recap .recap-vbs h2{font-size:23px;color:#222;letter-spacing:.08em}
+.page-event-recap .recap-vbs-feature{touch-action:pan-y}
+.page-event-recap .recap-vbs-feature img{object-fit:contain;background:#f5f5f5}
+.carousel-controls{display:flex;justify-content:center;gap:18px;margin:14px auto 8px}
+.carousel-controls button{width:38px;height:38px;border:0;border-radius:50%;background:#111;color:#fff;font:400 28px/1 Arial,sans-serif;cursor:pointer}
+.carousel-controls button:focus-visible{outline:3px solid #6089ad;outline-offset:3px}
+.children-gallery-title .carousel-controls{margin:12px auto}
+.children-gallery-thumbs button[aria-current="true"]{outline:2px solid #6089ad;outline-offset:2px}
+.page-event-calendar .calendar-row p{font-size:16px;line-height:1.65;color:#171717}
+.page-event-calendar .calendar-row span{font-size:15px;color:#111}
+.page-sermons .sermon-player{position:relative;overflow:hidden;width:min(820px,90vw);aspect-ratio:16/9;height:auto;background:#050505}
+.page-sermons .sermon-player iframe{display:block;position:absolute;inset:0;width:100%;height:100%;border:0}
+.page-sermons .sermon-entry{min-height:auto;padding-top:48px;padding-bottom:54px}
+.page-sermons .sermon-copy h1,.page-sermons .sermon-copy h2{font-size:29px}
+.peace-contact{text-align:center}
+.peace-contact>h2{font-size:25px;color:#111}
+.peace-contact>p,.peace-contact>h3{font-size:16px;line-height:1.6;color:#171717}
+.peace-contact .open-peace-form{border:0;border-radius:3px;background:#111;color:#fff;padding:13px 24px;font:600 15px Poppins,Arial,sans-serif;cursor:pointer}
+.peace-contact .local-preview-form{max-width:560px;margin:24px auto 0;text-align:left}
+.peace-contact .local-preview-form[hidden]{display:none!important}
+.local-preview-form label{display:grid;gap:6px;font-size:15px;line-height:1.45}
+.local-preview-form input,.local-preview-form textarea{width:100%;padding:12px 14px;font:inherit}
+.page-event-calendar .calendar-row a{font-weight:600}
+@media(max-width:700px){
+ .desktop-nav>a[aria-current="page"]::after,.desktop-nav>details>summary[aria-current="location"]::after{display:none}
+ .page-contact-us .contact-main{padding:42px 20px 30px}
+ .contact-form-column form{grid-template-columns:1fr;gap:14px}
+ .contact-form-column .contact-message{grid-column:auto}
+ .contact-map iframe{height:100%}
+ .page-prayer .prayer-ministry p,.page-prayer .prayer-meetings p,.page-prayer .prayer-request p{font-size:15px}
+ .page-children-and-youth .children-card p,.page-children-and-youth .children-vbs p{font-size:15px}
+ .page-children-and-youth .children-gallery-title{height:auto;min-height:376px}
+ .children-gallery-main{height:240px}
+ .carousel-controls{margin:10px auto}
+ .carousel-controls button{width:34px;height:34px}
+ .page-sermons .sermon-entry{padding:32px 22px}
+ .page-sermons .sermon-player{width:100%}
+ .page-event-recap .recap-playground,.page-event-recap .recap-vbs{padding-top:24px}
+ .page-small-groups .small-meeting:nth-child(3){margin-top:18px}
+}

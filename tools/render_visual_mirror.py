@@ -119,7 +119,10 @@ def render_group(group: dict, slug: str, up: str) -> str:
             if tag == "blockquote":
                 text_html.append(f"<blockquote>{linkify(text)}</blockquote>")
             elif tag == "p":
-                text_html.append(f"<p>{linkify(text)}</p>")
+                if text.isupper() or text.casefold().startswith("we use two candles"):
+                    text_html.append(f"<p><strong>{linkify(text)}</strong></p>")
+                else:
+                    text_html.append(f"<p>{linkify(text)}</p>")
             else:
                 text_html.append(f"<p>{linkify(text)}</p>")
     if in_list:
@@ -149,7 +152,9 @@ def render_contact_page() -> str:
     ]
     hours_html = "".join(f'<p><strong>{esc(label)}</strong> {esc(value)}</p>' for label, value in hours)
     directions = 'https://www.google.com/maps/search/?api=1&amp;query=2049+Pleasant+Ridge+Road%2C+Greensboro%2C+NC+27410'
-    return f'''<section class="contact-main"><div class="contact-content"><div class="contact-form-column"><h1>We would love to hear from you</h1><h2>Pastor: Rev Doreen Gibbons</h2><form onsubmit="return false"><label>Name*<input name="name" autocomplete="name"></label><label>Email*<input name="email" type="email" autocomplete="email"></label><label class="contact-message"><span class="visually-hidden">How can we help you in your faith journey?</span><textarea name="message" placeholder="How can we help you in your faith journey?*" rows="5"></textarea></label><button type="button" disabled>Send</button></form><p class="recaptcha-note">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p></div><div class="contact-details"><h2>Pleasant Ridge Christian Church</h2><p>2049 Pleasant Ridge Road, Greensboro, NC, 27410</p><p><a href="tel:3366682290">336-668-2290</a></p><h3>Hours</h3>{hours_html}</div></div></section><section class="contact-map"><a class="contact-directions" href="{directions}" target="_blank" rel="noopener noreferrer">➤&nbsp; Get Directions</a><a class="contact-map-preview" href="{directions}" target="_blank" rel="noopener noreferrer" aria-label="Open directions to Pleasant Ridge Christian Church"><img src="../assets/production/083.jpg" alt="Map to Pleasant Ridge Christian Church in Greensboro"></a></section><section class="contact-social"><h2>Connect with us</h2><a href="https://www.facebook.com/profile.php?id=100089013843748" aria-label="Facebook">f</a></section>'''
+    address = "2049 Pleasant Ridge Road, Greensboro, NC 27410"
+    maps_embed = "https://www.google.com/maps?q=2049+Pleasant+Ridge+Road%2C+Greensboro%2C+NC+27410&amp;output=embed"
+    return f'''<section class="contact-main"><div class="contact-content"><div class="contact-form-column"><h1>We would love to hear from you</h1><h2>Pastor: Rev Doreen Gibbons</h2><form class="local-preview-form" data-integration="activity-accounts:prcc-contact" data-submission-state="not-connected"><label>Name<input name="name" autocomplete="name"></label><label>Email*<input name="email" type="email" autocomplete="email" required></label><label class="contact-message"><span class="contact-helper">How can we help you with your faith?</span><span class="visually-hidden">Message</span><textarea name="message" placeholder="Tell us about your faith journey" rows="5" required></textarea></label><button type="submit">Preview message</button><p class="submission-note" aria-live="polite">This preview validates locally and does not send messages.</p></form></div><div class="contact-details"><h2>Pleasant Ridge Christian Church</h2><p>{address}</p><p><a href="tel:3366682290">336-668-2290</a></p><h3>Hours</h3>{hours_html}</div></div></section><section class="contact-map" aria-label="Map to Pleasant Ridge Christian Church"><iframe title="Map to Pleasant Ridge Christian Church, 2049 Pleasant Ridge Road" src="{maps_embed}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><a class="contact-directions" href="{directions}" target="_blank" rel="noopener noreferrer">➤&nbsp; Get Directions</a></section><section class="contact-social"><h2>Connect with us</h2><a class="facebook-link" href="https://www.facebook.com/profile.php?id=100089013843748" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M13.4 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.3H7.5v3.1h2.7v8z"/></svg></a></section>'''
 
 
 def render_faq_page(content: list[dict]) -> str:
@@ -180,16 +185,17 @@ def render_calendar_page(groups: list[dict]) -> str:
 
 def render_sermons_page() -> str:
     sermons = [
-        ("9-27-26 Soar Like an Eagle", "Isaiah 40:21-31", True),
-        ("9-20-26 The Lord Is My Shepherd", "Psalm 23", False),
-        ("9-13-26 God Always Had a Plan for Joseph", "Genesis 50:15-21", False),
-        ("9-6-26 God Guides Joseph to Reconcile and Forgive", "Genesis 45:1-8", False),
-        ("8-30-26 God Guides Joseph to Freedom", "Genesis 41:1-43", False),
-        ("8-23-26 God Is with Joseph When Waiting", "Genesis 40:1-23", False),
+        ("9-27-26 Soar Like an Eagle", "Isaiah 40:21-31", ""),
+        ("9-20-26 The Lord Is My Shepherd", "Psalm 23", ""),
+        ("9-13-26 God Always Had a Plan for Joseph", "Genesis 50:15-21", ""),
+        ("9-6-26 God Guides Joseph to Reconcile and Forgive", "Genesis 45:1-8", ""),
+        ("8-30-26 God Guides Joseph to Freedom", "Genesis 41:1-43", ""),
+        ("8-23-26 God Is with Joseph When Waiting", "Genesis 40:1-23", ""),
+        ("8-16-26 God Is with Joseph When Suffering", "Genesis 39:1-23", ""),
     ]
     entries = []
-    for title, passage, video in sermons:
-        player = '<div class="sermon-player" aria-label="Sermon video player preview"><span></span></div>' if video else ''
+    for index, (title, passage, video) in enumerate(sermons):
+        player = f'<div class="sermon-player"><iframe src="{video}?title=0&amp;byline=0&amp;portrait=0" title="{esc(title)} sermon video" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>' if video else ''
         heading = "h1" if not entries else "h2"
         entries.append(f'<section class="sermon-entry"><div class="sermon-copy"><{heading}>{esc(title)}</{heading}><p>{esc(passage)}</p></div>{player}</section>')
     return "".join(entries)
@@ -205,13 +211,12 @@ def render_recap_page(images: list[dict], up: str) -> str:
             used.add(path)
             vbs.append(path)
     first = "".join(f'<figure>{image_tag(path, "Kids playscape rebuilding project.", up)}</figure>' for path in playground)
-    preferred = [f"assets/production/{name}.jpg" for name in ("072", "061", "065")]
-    feature_paths = [path for path in preferred if path in vbs]
-    feature_paths.extend(path for path in vbs if path not in feature_paths)
+    feature_paths = vbs
     gallery = "".join(f'<figure data-slide="{i}">{image_tag(path, "Vacation Bible School community photo.", up)}</figure>' for i, path in enumerate(feature_paths))
     thumbs = "".join(f'<button type="button" data-slide="{i}" aria-label="Show Vacation Bible School photo {i+1}" aria-current="false">{image_tag(path, "", up)}</button>' for i, path in enumerate(feature_paths))
-    script = '''<script>document.querySelectorAll(".recap-vbs").forEach(section=>{const slides=[...section.querySelectorAll(".recap-vbs-feature figure")],feature=section.querySelector(".recap-vbs-feature"),buttons=[...section.querySelectorAll(".recap-thumbnails button")];let selected=1,startX=null;function select(index){selected=(index+slides.length)%slides.length;const start=(selected-1+slides.length)%slides.length;slides.forEach((slide,i)=>{const slot=(i-start+slides.length)%slides.length;slide.hidden=slot>2;slide.style.order=slot;slide.dataset.position=slot===1?"active":slot===0?"previous":"next"});buttons.forEach((button,i)=>{button.setAttribute("aria-current",String(i===selected))})}buttons.forEach((button,i)=>button.addEventListener("click",()=>select(i)));feature.addEventListener("touchstart",event=>{startX=event.changedTouches[0].clientX},{passive:true});feature.addEventListener("touchend",event=>{if(startX===null)return;const delta=event.changedTouches[0].clientX-startX;if(Math.abs(delta)>35)select(selected+(delta<0?1:-1));startX=null},{passive:true});select(selected)})</script>'''
-    return f'''<section class="recap-playground"><h1>Kids Playscape Rebuild Phase 2 Saturday July 25 2026</h1><div class="recap-playground-grid">{first}</div></section><section class="recap-vbs"><h2>Vacation Bible School June 15–18 2026</h2><div class="recap-vbs-feature">{gallery}</div><div class="recap-thumbnails">{thumbs}</div></section>{script}'''
+    controls = '<div class="carousel-controls"><button type="button" data-carousel-step="-1" aria-label="Previous Vacation Bible School photo">‹</button><button type="button" data-carousel-step="1" aria-label="Next Vacation Bible School photo">›</button></div>'
+    script = '''<script>document.querySelectorAll(".recap-vbs").forEach(section=>{const slides=[...section.querySelectorAll(".recap-vbs-feature figure")],feature=section.querySelector(".recap-vbs-feature"),buttons=[...section.querySelectorAll(".recap-thumbnails button")],steps=[...section.querySelectorAll("[data-carousel-step]")];let selected=0,startX=null,timer;function select(index){selected=(index+slides.length)%slides.length;const start=(selected-1+slides.length)%slides.length;slides.forEach((slide,i)=>{const slot=(i-start+slides.length)%slides.length;slide.hidden=slot>2;slide.style.order=slot;slide.dataset.position=slot===1?"active":slot===0?"previous":"next"});buttons.forEach((button,i)=>button.setAttribute("aria-current",String(i===selected)));}function resume(){clearInterval(timer);timer=setTimeout(()=>{clearInterval(timer);timer=setInterval(()=>select(selected+1),6000)},12000)}function pause(){clearInterval(timer)}buttons.forEach((button,i)=>button.addEventListener("click",()=>{select(i);resume()}));steps.forEach(button=>button.addEventListener("click",()=>{select(selected+Number(button.dataset.carouselStep));resume()}));feature.addEventListener("mouseenter",pause);feature.addEventListener("mouseleave",()=>timer=setInterval(()=>select(selected+1),6000));feature.addEventListener("focusin",pause);feature.addEventListener("focusout",event=>{if(!feature.contains(event.relatedTarget))timer=setInterval(()=>select(selected+1),6000)});feature.addEventListener("touchstart",event=>{startX=event.changedTouches[0].clientX;pause()},{passive:true});feature.addEventListener("touchend",event=>{if(startX===null)return;const delta=event.changedTouches[0].clientX-startX;if(Math.abs(delta)>35){select(selected+(delta<0?1:-1));resume()}startX=null},{passive:true});select(selected);timer=setInterval(()=>select(selected+1),6000)})</script>'''
+    return f'''<section class="recap-playground"><h1>Kids Playscape Rebuild Phase 2 Saturday July 25 2026</h1><div class="recap-playground-grid">{first}</div></section><section class="recap-vbs"><h2>Vacation Bible School June 15–18 2026</h2><div class="recap-vbs-feature">{gallery}</div>{controls}<div class="recap-thumbnails">{thumbs}</div></section>{script}'''
 
 
 def render_missions_page(groups: list[dict], up: str) -> str:
@@ -240,13 +245,7 @@ def render_core_values_page(groups: list[dict], up: str) -> str:
         title = group.get("heading", {}).get("text", "")
         paragraphs = [item["text"] for item in group["items"] if item["tag"] == "p"]
         full_copy = "".join(f'<p>{esc(text)}</p>' for text in paragraphs)
-        if title.casefold() == "our mission":
-            excerpt = " ".join(paragraphs[:3]) + " " + (paragraphs[3][:100] if len(paragraphs) > 3 else "")
-        else:
-            excerpt = paragraphs[0][:260] if paragraphs else ""
-        if len(excerpt) < sum(map(len, paragraphs)):
-            excerpt = excerpt.rstrip() + "…"
-        copy = f'<p>{esc(excerpt)}</p><details><summary>Show More</summary>{full_copy}</details>' if len(full_copy) > len(excerpt) + 40 else full_copy
+        copy = full_copy
         cards.append(f'<section class="values-card">{image_tag(path,title,up)}<div><h2>{esc(title)}</h2>{copy}</div></section>')
     quote = next((g for g in groups[2:] if g.get("heading")), None)
     quote_html = ""
@@ -266,17 +265,27 @@ def render_staff_page(content: list[dict], images: list[dict], up: str) -> str:
         ("Greg Gibbons - Leader of Prayer Ministry", "Greg"),
         ('"Heavenly" Choir - Small but mighty', "Choir"),
     ]
-    paragraphs = [item["text"] for item in content if item["tag"] == "p"]
+    descriptions = {}
+    person_for_paragraph = {
+        "doreen": "Doreen", "beverly": "Beverly", "kate": "Kate",
+        "ray freeman": "Ray", "greg gibbons": "Greg", "heavenly": "Choir",
+    }
+    for item in content:
+        text = item["text"]
+        if item["tag"] != "p":
+            continue
+        sample = text.casefold()[:180]
+        match = next((key for label, key in person_for_paragraph.items() if label in sample), None)
+        if match and match not in descriptions:
+            descriptions[match] = text
     cards = []
     for i, (name, match) in enumerate(people):
         path = images[i]["path"] if i < len(images) else ""
         photo = image_tag(path, name, up) if path else ""
-        description = next((text for text in paragraphs if text.casefold().startswith(match.casefold())), "")
+        description = descriptions.get(match, "")
         copy = ""
         if description:
-            excerpt = description[:410].rsplit(" ", 1)[0] + "…" if len(description) > 410 else description
-            copy = f'<p>{esc(excerpt)}</p>'
-            if len(description) > len(excerpt): copy += f'<details><summary>Show More</summary><p>{esc(description)}</p></details>'
+            copy = f'<p>{esc(description)}</p>'
         cards.append(f'<article class="staff-card">{photo}<h2>{esc(name)}</h2>{copy}</article>')
     return f'<h1 class="route-label">Staff</h1><section class="staff-grid">{"".join(cards)}</section>'
 
@@ -305,8 +314,10 @@ def render_small_groups_page(groups: list[dict], up: str, page_title: str) -> st
     for group in meetings:
         heading = (group.get("heading") or {}).get("text", "").lstrip("\u200b ")
         copy = "".join(f'<p>{esc(item["text"])}</p>' for item in group["items"] if item["tag"] == "p")
-        picture = image_tag("assets/production/053.jpg", "Women’s Circle fellowship", up) if heading.casefold().startswith("women's circle") else ""
-        blocks.append(f'<section class="small-meeting"><h3>{esc(heading)}</h3>{picture}<div>{copy}</div></section>')
+        normalized = heading.casefold()
+        picture = image_tag("assets/production/053.jpg", "Women’s Fellowship", up) if normalized.startswith("women's circle") else ""
+        anchor = ' id="womens-fellowship"' if normalized.startswith("women's circle") else ""
+        blocks.append(f'<section class="small-meeting"{anchor}><h3>{esc(heading)}</h3>{picture}<div>{copy}</div></section>')
     return f'<section class="small-hero"><h1>{esc(page_title)}</h1><p class="small-citation">{esc(citation)}</p></section><section class="small-intro"><div><h2>Small Group Bible Studies</h2>{intro_text}</div>{image_tag("assets/production/052.jpg","Small group gathered for Bible study and prayer",up)}</section><h2 class="small-section-title">Adult Small Groups</h2><section class="small-meetings">{"".join(blocks)}</section>'
 
 
@@ -334,7 +345,7 @@ def render_find_peace_page(content: list[dict], images: list[dict], up: str) -> 
         img = image_tag(path, card["title"], up) if path else ""
         copy = "".join(f'<p>{esc(text)}</p>' for text in card["items"])
         html_cards.append(f'<article class="peace-card"><h2>{esc(card["title"])}</h2>{img}<div>{copy}</div></article>')
-    return f'<h1 class="route-label">Salvation in Christ</h1><section class="peace-grid">{"".join(html_cards)}</section><section class="peace-contact"><h2>We would love to talk with you about faith in Jesus</h2><form onsubmit="return false"><label>Name<input name="name" autocomplete="name"></label><label>Email<input name="email" type="email" autocomplete="email"></label><label>Message<textarea name="message" rows="5"></textarea></label><button type="button" disabled>Tell me more about faith in Jesus</button></form><p class="recaptcha-note">This staging preview never sends submissions.</p><p>Church Service: Sunday mornings 9:00 am</p><h3>Pleasant Ridge Christian Church</h3><p>2049 Pleasant Ridge Road, Greensboro, North Carolina 27410, United States</p></section>'
+    return f'<h1 class="route-label">Salvation in Christ</h1><section class="peace-grid">{"".join(html_cards)}</section><section class="peace-contact"><h2>Contact Us</h2><p><strong>Church Service: Sunday mornings, 9 a.m.</strong></p><h3>We would love to talk with you about faith in Jesus</h3><button type="button" class="open-peace-form" aria-expanded="false" aria-controls="peace-contact-form">Tell me more about faith in Jesus</button><form id="peace-contact-form" class="local-preview-form" data-integration="activity-accounts:prcc-contact" data-submission-state="not-connected" hidden><label>Email*<input name="email" type="email" autocomplete="email" required></label><label>Message<textarea name="message" rows="5" required></textarea></label><button type="submit">Preview message</button><p class="submission-note" aria-live="polite">This preview validates locally and does not send messages.</p></form><p>Pleasant Ridge Christian Church</p><p>2049 Pleasant Ridge Road, Greensboro, NC 27410</p></section>'
 
 
 def render_weekly_page(groups: list[dict], up: str) -> str:
@@ -358,7 +369,7 @@ def render_prayer_page(groups: list[dict], up: str, page_title: str) -> str:
     meetings = next((g for g in groups if (g.get("heading") or {}).get("text", "").casefold() == "prayer meetings"), {})
     priority_copy = "".join(f'<p>{esc(item["text"])}</p>' for item in priority.get("items", []) if item["tag"] == "p")
     meetings_copy = "".join(f'<p>{esc(item["text"])}</p>' for item in meetings.get("items", []) if item["tag"] == "p")
-    return f'<section class="prayer-hero"><h1>{esc(page_title)}</h1><p>{esc(citation)}</p></section><section class="prayer-ministry"><h2>Prayer Ministry</h2><div class="prayer-priority">{image_tag("assets/production/064.png","Devote yourselves to prayer",up)}<div><h3>Prayer Priority</h3>{priority_copy}</div></div></section><section class="prayer-meetings">{image_tag("assets/production/076.jpg","Lord hear our prayers",up)}<div><h2>Prayer Meetings</h2>{meetings_copy}</div></section><section class="prayer-request"><h2>Prayer Request</h2><form onsubmit="return false"><label>Name<input name="name" autocomplete="name"></label><label>Email*<input name="email" type="email" autocomplete="email"></label><label><span class="visually-hidden">Message</span><textarea name="message" rows="5" placeholder="Prayer request"></textarea></label><button type="button" disabled>Send</button><p class="recaptcha-note">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p></form><div class="prayer-request-notes"><p>Feel free to share your name and email address if you would like someone to contact you</p><p><strong>All prayer requests are held in strictest confidence</strong></p></div></section>'
+    return f'<section class="prayer-hero"><h1>{esc(page_title)}</h1><p>{esc(citation)}</p></section><section class="prayer-ministry"><h2>Prayer Ministry</h2><div class="prayer-priority">{image_tag("assets/production/064.png","Devote yourselves to prayer",up)}<div><h3>Prayer Priority</h3>{priority_copy}</div></div></section><section class="prayer-meetings">{image_tag("assets/production/076.jpg","Lord hear our prayers",up)}<div><h2>Prayer Meetings</h2>{meetings_copy}</div></section><section class="prayer-request"><h2>Prayer Request</h2><form class="local-preview-form" data-integration="activity-accounts:prcc-prayer-request" data-submission-state="not-connected"><label>Name<input name="name" autocomplete="name"></label><label>Email*<input name="email" type="email" autocomplete="email" required></label><label><span class="visually-hidden">Prayer request</span><textarea name="message" rows="5" placeholder="Prayer request" required></textarea></label><button type="submit">Preview request</button><p class="submission-note" aria-live="polite">This preview validates locally and does not send requests.</p></form><div class="prayer-request-notes"><p>Feel free to share your name and email address if you would like someone to contact you</p><p><strong>All prayer requests are held in strictest confidence</strong></p></div></section>'
 
 
 def render_children_page(groups: list[dict], up: str, page_title: str) -> str:
@@ -371,7 +382,7 @@ def render_children_page(groups: list[dict], up: str, page_title: str) -> str:
         copy = "".join(f'<p>{esc(item["text"])}</p>' for item in group["items"] if item["tag"] in {"p", "li"})
         picture = image_tag(program_images[i], title, up)
         cards.append(f'<article class="children-card"><h3>{esc(title)}</h3>{picture}<div class="children-copy">{copy}</div></article>')
-    vbs_group = next((g for g in groups if (g.get("heading") or {}).get("text", "").lstrip("\u200b ").casefold() == "vcation bible school"), None)
+    vbs_group = next((g for g in groups if (g.get("heading") or {}).get("text", "").lstrip("\u200b ").casefold() in {"vacation bible school", "vcation bible school"}), None)
     vbs_intro = "".join(f'<p>{esc(item["text"])}</p>' for item in (vbs_group or {}).get("items", []) if item["tag"] == "p")
     vbs_groups = []
     for group in groups:
@@ -383,11 +394,12 @@ def render_children_page(groups: list[dict], up: str, page_title: str) -> str:
         title = group["heading"]["text"].lstrip("\u200b ")
         copy = "".join(f'<p>{esc(item["text"])}</p>' for item in group["items"] if item["tag"] == "p")
         vbs_cards.append(f'<article><h3>{esc(title)}</h3>{copy}</article>')
-    gallery = ["assets/production/058.jpg", "assets/production/059.jpg", "assets/production/060.jpg", "assets/production/061.jpg", "assets/production/062.jpg", "assets/production/063.jpg"]
+    gallery = [f"assets/production/{name}.jpg" for name in ("059", "060", "061", "062", "063")]
     gallery_main = "".join(f'<img data-slide="{i}" src="{up}{esc(path)}" alt="Rainforest Falls VBS gallery image {i+1}" loading="eager">' for i, path in enumerate(gallery))
     gallery_thumbs = "".join(f'<button type="button" data-slide="{i}" aria-label="Show Rainforest Falls photo {i+1}">{image_tag(path, "", up)}</button>' for i, path in enumerate(gallery))
-    script = '''<script>(()=>{const stage=document.querySelector(".children-gallery-main");if(!stage)return;const slides=[...stage.querySelectorAll("[data-slide]")],buttons=[...document.querySelectorAll(".children-gallery-thumbs button")];let active=0;function show(n){active=(n+slides.length)%slides.length;slides.forEach((s,i)=>{const d=(i-active+slides.length)%slides.length;s.dataset.position=d===0?"active":d===slides.length-1?"previous":d===1?"next":"hidden"});buttons.forEach((b,i)=>b.setAttribute("aria-current",String(i===active)))}buttons.forEach((b,i)=>b.addEventListener("click",()=>show(i)));show(0)})()</script>'''
-    return f'<section class="children-hero"><blockquote><h1>{esc(page_title)}</h1><cite>{esc(citation)}</cite></blockquote>{image_tag("assets/014.jpg","Jesus welcoming children",up)}</section><section class="children-programs"><h2>Ministries for Children and Youth</h2><div class="children-grid">{"".join(cards)}</div></section><section class="children-vbs">{image_tag("assets/production/057.jpg","Children at Vacation Bible School",up)}<div class="children-vbs-intro"><h2>Vacation Bible School</h2>{vbs_intro}</div><div class="children-vbs-cards">{"".join(vbs_cards)}</div></section><section class="children-gallery-title"><h2>Rainforest Falls - VBS 2026</h2><div class="children-gallery-main">{gallery_main}</div><div class="children-gallery-thumbs">{gallery_thumbs}</div></section>{script}'
+    controls = '<div class="carousel-controls"><button type="button" data-carousel-step="-1" aria-label="Previous Vacation Bible School photo">‹</button><button type="button" data-carousel-step="1" aria-label="Next Vacation Bible School photo">›</button></div>'
+    script = '''<script>(()=>{const stage=document.querySelector(".children-gallery-main");if(!stage)return;const slides=[...stage.querySelectorAll("[data-slide]")],buttons=[...document.querySelectorAll(".children-gallery-thumbs button")],steps=[...document.querySelectorAll(".children-gallery-title [data-carousel-step]")];let active=0,timer,startX=null;function show(n){active=(n+slides.length)%slides.length;slides.forEach((s,i)=>{const d=(i-active+slides.length)%slides.length;s.dataset.position=d===0?"active":d===slides.length-1?"previous":d===1?"next":"hidden"});buttons.forEach((b,i)=>b.setAttribute("aria-current",String(i===active)))}function resume(){clearInterval(timer);timer=setTimeout(()=>{clearInterval(timer);timer=setInterval(()=>show(active+1),6000)},12000)}function pause(){clearInterval(timer)}buttons.forEach((b,i)=>b.addEventListener("click",()=>{show(i);resume()}));steps.forEach(b=>b.addEventListener("click",()=>{show(active+Number(b.dataset.carouselStep));resume()}));stage.addEventListener("mouseenter",pause);stage.addEventListener("mouseleave",()=>timer=setInterval(()=>show(active+1),6000));stage.addEventListener("focusin",pause);stage.addEventListener("focusout",e=>{if(!stage.contains(e.relatedTarget))timer=setInterval(()=>show(active+1),6000)});stage.addEventListener("touchstart",e=>{startX=e.changedTouches[0].clientX;pause()},{passive:true});stage.addEventListener("touchend",e=>{if(startX===null)return;const delta=e.changedTouches[0].clientX-startX;if(Math.abs(delta)>35){show(active+(delta<0?1:-1));resume()}startX=null},{passive:true});show(0);timer=setInterval(()=>show(active+1),6000)})()</script>'''
+    return f'<section class="children-hero"><blockquote><h1>{esc(page_title)}</h1><cite>{esc(citation)}</cite></blockquote>{image_tag("assets/014.jpg","Jesus welcoming children",up)}</section><section class="children-programs"><h2>Ministries for Children and Youth</h2><div class="children-grid">{"".join(cards)}</div></section><section class="children-vbs">{image_tag("assets/production/057.jpg","Children at Vacation Bible School",up)}<div class="children-vbs-intro"><h2>Vacation Bible School</h2>{vbs_intro}</div><div class="children-vbs-cards">{"".join(vbs_cards)}</div></section><section class="children-gallery-title"><h2>Rainforest Falls - VBS 2026</h2><div class="children-gallery-main">{gallery_main}</div>{controls}<div class="children-gallery-thumbs">{gallery_thumbs}</div></section>{script}'
 
 
 def render_giving_page(page: dict, up: str) -> str:
@@ -407,8 +419,8 @@ def nav_markup(up: str) -> str:
     about_links = "".join(link(label, path) for label, path in ABOUT)
     more_items = [("Find Peace in Christ", "find-peace-in-christ/"), ("Online Giving", "online-giving/"), ("Sermons", "sermons/"), ("Event Calendar", "event-calendar/"), ("Event Recap", "event-recap/")]
     more_links = "".join(link(label, path) for label, path in more_items)
-    desktop = f'<nav class="desktop-nav" aria-label="Main navigation">{link("Home", "index.html")}<details><summary>About <span aria-hidden="true">⌄</span></summary><div class="menu-panel">{about_links}</div></details>{link("Weekly Update","weekly-update/")}{link("Small Groups","small-groups/")}{link("Children and Youth","children-and-youth/")}{link("Prayer","prayer/")}<details><summary>More <span aria-hidden="true">⌄</span></summary><div class="menu-panel">{more_links}</div></details></nav>'
-    mobile = f'<div class="mobile-menu"><details><summary aria-label="Open navigation"><span></span><span></span><span></span></summary><nav aria-label="Main navigation">{link("Home","index.html")}<details><summary>About</summary>{about_links}</details>{link("Weekly Update","weekly-update/")}{link("Small Groups","small-groups/")}{link("Children and Youth","children-and-youth/")}{link("Prayer","prayer/")}<details><summary>More</summary>{more_links}</details></nav></details></div>'
+    desktop = f'<nav class="desktop-nav" aria-label="Main navigation">{link("Home", "index.html")}<details data-nav-menu><summary>About <span aria-hidden="true">⌄</span></summary><div class="menu-panel">{about_links}</div></details>{link("Weekly Update","weekly-update/")}{link("Small Groups","small-groups/")}{link("Children and Youth","children-and-youth/")}{link("Prayer","prayer/")}<details data-nav-menu><summary>More <span aria-hidden="true">⌄</span></summary><div class="menu-panel">{more_links}</div></details></nav>'
+    mobile = f'<div class="mobile-menu"><details data-nav-menu><summary aria-label="Open navigation"><span></span><span></span><span></span></summary><nav aria-label="Main navigation">{link("Home","index.html")}<details data-nav-menu><summary>About</summary>{about_links}</details>{link("Weekly Update","weekly-update/")}{link("Small Groups","small-groups/")}{link("Children and Youth","children-and-youth/")}{link("Prayer","prayer/")}<details data-nav-menu><summary>More</summary>{more_links}</details></nav></details></div>'
     return f'<header class="site-header">{mobile}<a class="site-logo" href="{up}index.html" aria-label="Pleasant Ridge Christian Church home"><img src="{up}assets/001.png" width="100" height="100" alt="Pleasant Ridge Christian Church"></a>{desktop}</header>'
 
 
@@ -460,7 +472,7 @@ def main():
         elif slug == "ministry-staff": body = f'<article>{render_staff_page(content, images, up)}</article>'
         elif slug == "church-history": body = f'<article>{render_history_page(content, up)}</article>'
         elif slug == "small-groups": body = f'<article>{render_small_groups_page(groups, up, title)}</article>'
-        output=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{esc(document_title)} — Pleasant Ridge Christian Church in Greensboro, North Carolina"><title>{esc(document_title)} | Pleasant Ridge Christian Church</title><link rel="icon" type="image/svg+xml" href="{up}favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Adamina&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="{up}pages.css"></head><body class="page-{esc(slug)}"><a class="skip" href="#main">Skip to content</a>{nav_markup(up)}<main id="main" class="page-main">{body}</main><footer class="page-footer"><small>Copyright © 2026 Pleasant Ridge Christian Church · All rights reserved.</small><a href="https://www.facebook.com/profile.php?id=100089013843748" aria-label="Facebook">f</a><div class="footer-powered"><small>Powered by</small><img src="{up}assets/production/084.jpg" alt="GoDaddy Airo" loading="eager"></div></footer></body></html>'''
+        output=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{esc(document_title)} — Pleasant Ridge Christian Church in Greensboro, North Carolina"><title>{esc(document_title)} | Pleasant Ridge Christian Church</title><link rel="icon" type="image/svg+xml" href="{up}favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Adamina&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="{up}pages.css"><script src="{up}nav.js" defer></script></head><body class="page-{esc(slug)}"><a class="skip" href="#main">Skip to content</a>{nav_markup(up)}<main id="main" class="page-main">{body}</main><footer class="page-footer"><small>Copyright © 2026 Pleasant Ridge Christian Church · All rights reserved.</small><a class="facebook-link" href="https://www.facebook.com/profile.php?id=100089013843748" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M13.4 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.3H7.5v3.1h2.7v8z"/></svg></a></footer></body></html>'''
         (folder/"index.html").write_text(output,encoding="utf-8")
         counts.append({"route":"/"+slug+"/","content_blocks":len(content),"images":len(images),"groups":len(groups),"custom_renderer":slug in special,"safe_form_preview":slug in {"contact-us", "prayer", "find-peace-in-christ"}})
     print(json.dumps({"pages_rendered":len(counts),"routes":counts},indent=2,ensure_ascii=False))

@@ -51,8 +51,17 @@ for p in page_files:
         elif target.is_dir():
             if not (target / "index.html").is_file(): errors.append(f"{rel}: missing directory index for {ref}")
         elif not target.is_file(): errors.append(f"{rel}: missing local target {ref}")
-    if re.search(r"<form", p.read_text(encoding="utf-8"), re.I) and not parser.form_note:
-        errors.append(f"{rel}: submission form lacks disabled-preview control")
+    page_text = p.read_text(encoding="utf-8")
+    forms = re.findall(r"<form\b[^>]*>.*?</form>", page_text, re.I | re.S)
+    for index, form in enumerate(forms, start=1):
+        if not re.search(r'class="[^"]*\blocal-preview-form\b[^"]*"', form, re.I):
+            errors.append(f"{rel}: form {index} is not marked as a local preview")
+        if 'data-submission-state="not-connected"' not in form:
+            errors.append(f"{rel}: form {index} does not disclose that submission is not connected")
+        if not re.search(r'<input\b(?=[^>]*type="email")(?=[^>]*required)[^>]*>', form, re.I):
+            errors.append(f"{rel}: form {index} lacks a required email field")
+        if not re.search(r'<textarea\b(?=[^>]*required)[^>]*>', form, re.I):
+            errors.append(f"{rel}: form {index} lacks a required message field")
 required_manifest_fields = {"source_url", "page_title", "navigation_label", "destination_path", "content_status", "asset_status", "link_status", "functionality_status", "verification_status"}
 for item in manifest["pages"]:
     missing = required_manifest_fields.difference(item)

@@ -15,7 +15,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -28,7 +32,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Church%20Pic-ac2db89.jfif/:/rs=h:1000,cg:true,m",
@@ -41,7 +49,11 @@
             724,
             542
           ],
-          "aid": "BACKGROUND_IMAGE_RENDERED"
+          "aid": "BACKGROUND_IMAGE_RENDERED",
+          "production_asset": "Church%20Pic-ac2db89.jfif",
+          "staging_local_asset": "assets/002.jpg",
+          "staging_usage": "/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20230604_101616.jpg/:/cr=t:0%25,l:19.52%25,w:60.97%25,h:100%25/rs=w:400,h:533,cg:true",
@@ -54,7 +66,11 @@
             339,
             452
           ],
-          "aid": "CONTENT_IMAGE1_RENDERED"
+          "aid": "CONTENT_IMAGE1_RENDERED",
+          "production_asset": "20230604_101616.jpg",
+          "staging_local_asset": "assets/003.jpg",
+          "staging_usage": "/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Yard%20Sale2.jpg/:/rs=w:1160/qt=q:27",
@@ -67,7 +83,11 @@
             713,
             276
           ],
-          "aid": "FLEX_IMG"
+          "aid": "FLEX_IMG",
+          "production_asset": "Yard Sale2.jpg",
+          "staging_local_asset": "assets/production/028.jpg",
+          "staging_usage": "/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Love%20others.webp/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300/qt=q:27",
@@ -80,7 +100,11 @@
             532,
             266
           ],
-          "aid": "ABOUT_IMAGE_RENDERED0"
+          "aid": "ABOUT_IMAGE_RENDERED0",
+          "production_asset": "Love others.webp",
+          "staging_local_asset": "assets/production/029.webp",
+          "staging_usage": "/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Ministries.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300/qt=q:27",
@@ -93,7 +117,11 @@
             532,
             266
           ],
-          "aid": "ABOUT_IMAGE_RENDERED1"
+          "aid": "ABOUT_IMAGE_RENDERED1",
+          "production_asset": "Ministries.jpg",
+          "staging_local_asset": "assets/production/030.jpg",
+          "staging_usage": "/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Outreach%20Ministries.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true/qt=q:27",
@@ -106,7 +134,11 @@
             532,
             356
           ],
-          "aid": "ABOUT_IMAGE_RENDERED2"
+          "aid": "ABOUT_IMAGE_RENDERED2",
+          "production_asset": "Outreach Ministries.jpg",
+          "staging_local_asset": "assets/production/031.jpg",
+          "staging_usage": "/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20230115_085410.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300/qt=q:27",
@@ -119,7 +151,11 @@
             532,
             266
           ],
-          "aid": "ABOUT_IMAGE_RENDERED1"
+          "aid": "ABOUT_IMAGE_RENDERED1",
+          "production_asset": "20230115_085410.jpg",
+          "staging_local_asset": "assets/production/032.jpg",
+          "staging_usage": "/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20251009_114525.jpg/:/cr=t:31.25%25,l:0%25,w:100%25,h:37.5%25/rs=w:600,h:300,cg:true/qt=q:27",
@@ -132,7 +168,11 @@
             532,
             266
           ],
-          "aid": "ABOUT_IMAGE_RENDERED0"
+          "aid": "ABOUT_IMAGE_RENDERED0",
+          "production_asset": "20251009_114525.jpg",
+          "staging_local_asset": "assets/production/033.jpg",
+          "staging_usage": "/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Gods%20Love%20Shown.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1160/qt=q:27",
@@ -145,7 +185,11 @@
             532,
             398
           ],
-          "aid": "QUOTE_IMAGE_RENDERED"
+          "aid": "QUOTE_IMAGE_RENDERED",
+          "production_asset": "Gods Love Shown.jpg",
+          "staging_local_asset": "assets/production/034.jpg",
+          "staging_usage": "/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -163,7 +207,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/contact-us/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -176,7 +224,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi3.png",
@@ -189,7 +241,11 @@
             26,
             37
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "spotlight-poi3.png",
+          "staging_local_asset": null,
+          "staging_usage": "Google Maps iframe provides the same map marker.",
+          "status": "MATCH"
         }
       ]
     },
@@ -207,7 +263,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/ministry-staff/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -220,7 +280,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Doreen.jpg/:/cr=t:2.9%25,l:0%25,w:100%25,h:94.19%25/rs=w:365,h:365,cg:true",
@@ -233,7 +297,11 @@
             339,
             339
           ],
-          "aid": "ABOUT_IMAGE_RENDERED0"
+          "aid": "ABOUT_IMAGE_RENDERED0",
+          "production_asset": "Doreen.jpg",
+          "staging_local_asset": "assets/004.jpg",
+          "staging_usage": "/ministry-staff/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Beverly%20Alt-headshot.JPG/:/cr=t:11.95%25,l:0%25,w:100%25,h:76.09%25/rs=w:365,h:365,cg:true",
@@ -246,7 +314,11 @@
             339,
             339
           ],
-          "aid": "ABOUT_IMAGE_RENDERED1"
+          "aid": "ABOUT_IMAGE_RENDERED1",
+          "production_asset": "Beverly%20Alt-headshot.JPG",
+          "staging_local_asset": "assets/005.jpg",
+          "staging_usage": "/ministry-staff/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Kate.jpg/:/cr=t:0%25,l:0.04%25,w:99.91%25,h:100%25/rs=w:365,h:365,cg:true",
@@ -259,7 +331,11 @@
             339,
             339
           ],
-          "aid": "ABOUT_IMAGE_RENDERED2"
+          "aid": "ABOUT_IMAGE_RENDERED2",
+          "production_asset": "Kate.jpg",
+          "staging_local_asset": "assets/006.jpg",
+          "staging_usage": "/ministry-staff/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Ray%20Pic.jpg/:/cr=t:9.97%25,l:0%25,w:100%25,h:80.05%25/rs=w:365,h:365,cg:true",
@@ -272,7 +348,11 @@
             339,
             339
           ],
-          "aid": "ABOUT_IMAGE_RENDERED3"
+          "aid": "ABOUT_IMAGE_RENDERED3",
+          "production_asset": "Ray%20Pic.jpg",
+          "staging_local_asset": "assets/007.jpg",
+          "staging_usage": "/ministry-staff/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_2546%20(4).JPG/:/cr=t:7.26%25,l:0%25,w:100%25,h:85.48%25/rs=w:365,h:365,cg:true",
@@ -285,7 +365,11 @@
             339,
             339
           ],
-          "aid": "ABOUT_IMAGE_RENDERED4"
+          "aid": "ABOUT_IMAGE_RENDERED4",
+          "production_asset": "IMG_2546%20(4).JPG",
+          "staging_local_asset": "assets/008.jpg",
+          "staging_usage": "/ministry-staff/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Choir.jpg/:/rs=w:365,cg:true,m",
@@ -298,7 +382,11 @@
             339,
             463
           ],
-          "aid": "ABOUT_IMAGE_RENDERED5"
+          "aid": "ABOUT_IMAGE_RENDERED5",
+          "production_asset": "Choir.jpg",
+          "staging_local_asset": "assets/009.jpg",
+          "staging_usage": "/ministry-staff/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -316,7 +404,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/core-values/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -329,7 +421,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-42ac56d.png/:/cr=t:0%25,l:16.64%25,w:66.73%25,h:100%25/rs=w:365,h:365,cg:true",
@@ -342,7 +438,11 @@
             339,
             339
           ],
-          "aid": "ABOUT_IMAGE_RENDERED0"
+          "aid": "ABOUT_IMAGE_RENDERED0",
+          "production_asset": "blob-42ac56d.png",
+          "staging_local_asset": "assets/010.jpg",
+          "staging_usage": "/core-values/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-fbea767.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:365,cg:true",
@@ -355,7 +455,11 @@
             339,
             226
           ],
-          "aid": "ABOUT_IMAGE_RENDERED1"
+          "aid": "ABOUT_IMAGE_RENDERED1",
+          "production_asset": "blob-fbea767.png",
+          "staging_local_asset": "assets/011.jpg",
+          "staging_usage": "/core-values/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -373,7 +477,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -386,7 +494,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/istockphoto-1183967695-612x612.jpg/:/",
@@ -399,7 +511,11 @@
             532,
             355
           ],
-          "aid": "IMAGE_RENDERED"
+          "aid": "IMAGE_RENDERED",
+          "production_asset": "istockphoto-1183967695-612x612.jpg",
+          "staging_local_asset": "assets/012.jpg",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/6iyokk6MT.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
@@ -412,7 +528,11 @@
             339,
             216
           ],
-          "aid": "CONTENT_IMAGE1_RENDERED"
+          "aid": "CONTENT_IMAGE1_RENDERED",
+          "production_asset": "6iyokk6MT.png",
+          "staging_local_asset": "assets/production/035.png",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Christmas%20Child.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
@@ -425,7 +545,11 @@
             339,
             153
           ],
-          "aid": "CONTENT_IMAGE2_RENDERED"
+          "aid": "CONTENT_IMAGE2_RENDERED",
+          "production_asset": "Christmas Child.png",
+          "staging_local_asset": "assets/production/036.png",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/1065988.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
@@ -438,7 +562,11 @@
             339,
             308
           ],
-          "aid": "CONTENT_IMAGE3_RENDERED"
+          "aid": "CONTENT_IMAGE3_RENDERED",
+          "production_asset": "1065988.jpg",
+          "staging_local_asset": "assets/production/037.jpg",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/799587.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
@@ -451,7 +579,11 @@
             339,
             178
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "799587.jpg",
+          "staging_local_asset": "assets/production/038.jpg",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-12bdc30.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
@@ -464,7 +596,11 @@
             339,
             117
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "blob-12bdc30.png",
+          "staging_local_asset": "assets/production/039.png",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/GUM.jpg/:/cr=t:24.65%25,l:0%25,w:100%25,h:50.7%25/rs=w:388,cg:true",
@@ -477,7 +613,11 @@
             339,
             171
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "GUM.jpg",
+          "staging_local_asset": "assets/production/040.jpg",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/c4f-logo-2-06e3312.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
@@ -490,7 +630,11 @@
             339,
             339
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "c4f-logo-2-06e3312.png",
+          "staging_local_asset": "assets/production/041.png",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/7%20homes.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
@@ -503,7 +647,11 @@
             339,
             272
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "7 homes.png",
+          "staging_local_asset": "assets/production/042.png",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/ywam-logo-min.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
@@ -516,7 +664,11 @@
             339,
             271
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "ywam-logo-min.jpg",
+          "staging_local_asset": "assets/production/043.jpg",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Compassion-1000x500.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
@@ -529,7 +681,11 @@
             339,
             169
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "Compassion-1000x500.jpg",
+          "staging_local_asset": "assets/production/044.jpg",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IL-FreedomHouse-2023.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
@@ -542,7 +698,11 @@
             339,
             194
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IL-FreedomHouse-2023.png",
+          "staging_local_asset": "assets/production/045.png",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/wsrm_logo-header%402x.png/:/rs=w:388,cg:true,m",
@@ -555,7 +715,11 @@
             339,
             137
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "wsrm_logo-header@2x.png",
+          "staging_local_asset": "assets/production/046.png",
+          "staging_usage": "/missions/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -573,7 +737,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/church-history/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -586,7 +754,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20230122_083127.jpg/:/cr=t:0%25,l:17.46%25,w:65.07%25,h:100%25/rs=w:1240,h:1240,cg:true",
@@ -599,7 +771,11 @@
             1112,
             1112
           ],
-          "aid": "ABOUT_IMAGE_RENDERED0"
+          "aid": "ABOUT_IMAGE_RENDERED0",
+          "production_asset": "20230122_083127.jpg",
+          "staging_local_asset": "assets/013.jpg",
+          "staging_usage": "/church-history/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -617,7 +793,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/faqs/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -630,7 +810,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         }
       ]
     },
@@ -648,7 +832,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/weekly-update/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -661,7 +849,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Watch%20over%20flock.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25",
@@ -674,7 +866,11 @@
             532,
             291
           ],
-          "aid": "QUOTE_IMAGE_RENDERED"
+          "aid": "QUOTE_IMAGE_RENDERED",
+          "production_asset": "Watch over flock.jpg",
+          "staging_local_asset": "assets/production/047.jpg",
+          "staging_usage": "/weekly-update/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Weekly%20Message.jpg/:/rs=w:600,h:451,cg:true,m/cr=w:600,h:451",
@@ -687,7 +883,11 @@
             532,
             400
           ],
-          "aid": "ABOUT_IMAGE_RENDERED0"
+          "aid": "ABOUT_IMAGE_RENDERED0",
+          "production_asset": "Weekly Message.jpg",
+          "staging_local_asset": "assets/production/048.jpg",
+          "staging_usage": "/weekly-update/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Sneak%20Peek.jpg/:/cr=t:0%25,l:12.59%25,w:74.81%25,h:100%25/rs=w:600,h:451,cg:true",
@@ -700,7 +900,11 @@
             532,
             400
           ],
-          "aid": "ABOUT_IMAGE_RENDERED1"
+          "aid": "ABOUT_IMAGE_RENDERED1",
+          "production_asset": "Sneak Peek.jpg",
+          "staging_local_asset": "assets/production/049.jpg",
+          "staging_usage": "/weekly-update/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Candle2.jpg/:/cr=t:11.17%25,l:0%25,w:100%25,h:77.67%25/rs=w:1240,h:620,cg:true",
@@ -713,7 +917,11 @@
             1112,
             556
           ],
-          "aid": "CONTENT_IMAGE1_RENDERED"
+          "aid": "CONTENT_IMAGE1_RENDERED",
+          "production_asset": "Candle2.jpg",
+          "staging_local_asset": "assets/production/050.jpg",
+          "staging_usage": "/weekly-update/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Encouragement.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300",
@@ -726,7 +934,11 @@
             532,
             266
           ],
-          "aid": "ABOUT_IMAGE_RENDERED0"
+          "aid": "ABOUT_IMAGE_RENDERED0",
+          "production_asset": "Encouragement.jpg",
+          "staging_local_asset": "assets/production/051.jpg",
+          "staging_usage": "/weekly-update/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -744,7 +956,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/small-groups/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -757,7 +973,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/small%20groups3.jpg/:/rs=w:400,cg:true,m",
@@ -770,7 +990,11 @@
             339,
             177
           ],
-          "aid": "CONTENT_IMAGE1_RENDERED"
+          "aid": "CONTENT_IMAGE1_RENDERED",
+          "production_asset": "small groups3.jpg",
+          "staging_local_asset": "assets/production/052.jpg",
+          "staging_usage": "/small-groups/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Womens%20Fellowship.jpg/:/cr=t:13.08%25,l:0%25,w:100%25,h:73.84%25/rs=w:1240,h:620,cg:true",
@@ -783,7 +1007,11 @@
             1112,
             556
           ],
-          "aid": "ABOUT_IMAGE_RENDERED0"
+          "aid": "ABOUT_IMAGE_RENDERED0",
+          "production_asset": "Womens Fellowship.jpg",
+          "staging_local_asset": "assets/production/053.jpg",
+          "staging_usage": "/small-groups/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -801,7 +1029,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/children-and-youth/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -814,7 +1046,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Let%20the%20Children.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25",
@@ -827,7 +1063,11 @@
             532,
             532
           ],
-          "aid": "QUOTE_IMAGE_RENDERED"
+          "aid": "QUOTE_IMAGE_RENDERED",
+          "production_asset": "Let%20the%20Children.jpg",
+          "staging_local_asset": "assets/014.jpg",
+          "staging_usage": "/children-and-youth/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/images-8bfa7ef.jpg/:/cr=t:0%25,l:7.4%25,w:85.2%25,h:100%25/rs=w:388,h:291.72932330827064,cg:true",
@@ -840,7 +1080,11 @@
             339,
             255
           ],
-          "aid": "CONTENT_IMAGE1_RENDERED"
+          "aid": "CONTENT_IMAGE1_RENDERED",
+          "production_asset": "images-8bfa7ef.jpg",
+          "staging_local_asset": "assets/production/054.jpg",
+          "staging_usage": "/children-and-youth/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Kids%20Sermon.jpg/:/rs=w:388,cg:true,m",
@@ -853,7 +1097,11 @@
             339,
             254
           ],
-          "aid": "CONTENT_IMAGE2_RENDERED"
+          "aid": "CONTENT_IMAGE2_RENDERED",
+          "production_asset": "Kids Sermon.jpg",
+          "staging_local_asset": "assets/production/055.jpg",
+          "staging_usage": "/children-and-youth/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Kids%20Sunday%20School.jpg/:/rs=w:388,cg:true,m",
@@ -866,7 +1114,11 @@
             339,
             190
           ],
-          "aid": "CONTENT_IMAGE3_RENDERED"
+          "aid": "CONTENT_IMAGE3_RENDERED",
+          "production_asset": "Kids Sunday School.jpg",
+          "staging_local_asset": "assets/production/056.jpg",
+          "staging_usage": "/children-and-youth/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/image000007.jpg/:/cr=t:0.03%25,l:0%25,w:100%25,h:99.94%25/rs=w:984,h:738",
@@ -879,7 +1131,11 @@
             536,
             402
           ],
-          "aid": "FLEX_IMG"
+          "aid": "FLEX_IMG",
+          "production_asset": "image000007.jpg",
+          "staging_local_asset": "assets/production/057.jpg",
+          "staging_usage": "/children-and-youth/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Logo.jpg/:/",
@@ -892,7 +1148,11 @@
             541,
             600
           ],
-          "aid": "GALLERY_IMAGE0_RENDERED"
+          "aid": "GALLERY_IMAGE0_RENDERED",
+          "production_asset": "Logo.jpg",
+          "staging_local_asset": "assets/production/058.jpg",
+          "staging_usage": "Excluded from the VBS carousel as the blurry branded placeholder; all five captured photo slides are used.",
+          "status": "INTENTIONAL_IMPROVEMENT"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Logo.jpg/:/",
@@ -905,7 +1165,11 @@
             541,
             600
           ],
-          "aid": "GALLERY_IMAGE0_RENDERED"
+          "aid": "GALLERY_IMAGE0_RENDERED",
+          "production_asset": "Logo.jpg",
+          "staging_local_asset": "assets/production/058.jpg",
+          "staging_usage": "Excluded from the VBS carousel as the blurry branded placeholder; all five captured photo slides are used.",
+          "status": "INTENTIONAL_IMPROVEMENT"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Logo.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -918,7 +1182,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "Logo.jpg",
+          "staging_local_asset": "assets/production/058.jpg",
+          "staging_usage": "Excluded from the VBS carousel as the blurry branded placeholder; all five captured photo slides are used.",
+          "status": "INTENTIONAL_IMPROVEMENT"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_20260613_112514-0bc6fc9.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -931,7 +1199,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_20260613_112514-0bc6fc9.jpg",
+          "staging_local_asset": "assets/production/059.jpg",
+          "staging_usage": "/children-and-youth/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1112-9ce103e.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -944,7 +1216,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1112-9ce103e.jpg",
+          "staging_local_asset": "assets/production/060.jpg",
+          "staging_usage": "/children-and-youth/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1114.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -957,7 +1233,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1114.jpg",
+          "staging_local_asset": "assets/production/061.jpg",
+          "staging_usage": "/children-and-youth/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1048.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -970,7 +1250,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1048.jpg",
+          "staging_local_asset": "assets/production/062.jpg",
+          "staging_usage": "/children-and-youth/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1152.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -983,7 +1267,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1152.jpg",
+          "staging_local_asset": "assets/production/063.jpg",
+          "staging_usage": "/children-and-youth/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -1001,7 +1289,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/prayer/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -1014,7 +1306,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Devote%20To%20Prayer.png/:/cr=t:3.12%25,l:0%25,w:100%25,h:93.75%25/rs=w:600,h:300,cg:true",
@@ -1027,7 +1323,11 @@
             532,
             266
           ],
-          "aid": "ABOUT_IMAGE_RENDERED0"
+          "aid": "ABOUT_IMAGE_RENDERED0",
+          "production_asset": "Devote To Prayer.png",
+          "staging_local_asset": "assets/production/064.png",
+          "staging_usage": "/prayer/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -1045,7 +1345,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/find-peace-in-christ/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -1058,7 +1362,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-8ddc4d8.png/:/cr=t:12.41%25,l:0%25,w:100%25,h:75.18%25/rs=w:388,h:194,cg:true",
@@ -1071,7 +1379,11 @@
             339,
             169
           ],
-          "aid": "CONTENT_IMAGE1_RENDERED"
+          "aid": "CONTENT_IMAGE1_RENDERED",
+          "production_asset": "blob-8ddc4d8.png",
+          "staging_local_asset": "assets/015.png",
+          "staging_usage": "/find-peace-in-christ/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/istockphoto-657091114-612x612.jpg/:/cr=t:8.76%25,l:0%25,w:100%25,h:82.48%25/rs=w:388,h:194,cg:true",
@@ -1084,7 +1396,11 @@
             339,
             169
           ],
-          "aid": "CONTENT_IMAGE2_RENDERED"
+          "aid": "CONTENT_IMAGE2_RENDERED",
+          "production_asset": "istockphoto-657091114-612x612.jpg",
+          "staging_local_asset": "assets/016.jpg",
+          "staging_usage": "/find-peace-in-christ/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/istockphoto-535676871-612x612.jpg/:/cr=t:12.22%25,l:0%25,w:100%25,h:75.56%25/rs=w:388,h:194,cg:true",
@@ -1097,7 +1413,11 @@
             339,
             169
           ],
-          "aid": "CONTENT_IMAGE3_RENDERED"
+          "aid": "CONTENT_IMAGE3_RENDERED",
+          "production_asset": "istockphoto-535676871-612x612.jpg",
+          "staging_local_asset": "assets/017.jpg",
+          "staging_usage": "/find-peace-in-christ/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/istockphoto-459919219-612x612.jpg/:/cr=t:12.41%25,l:0%25,w:100%25,h:75.19%25/rs=w:388,h:292,cg:true",
@@ -1110,7 +1430,11 @@
             339,
             255
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "istockphoto-459919219-612x612.jpg",
+          "staging_local_asset": "assets/019.jpg",
+          "staging_usage": "/find-peace-in-christ/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/istockphoto-1388577633-612x612.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
@@ -1123,7 +1447,11 @@
             339,
             226
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "istockphoto-1388577633-612x612.jpg",
+          "staging_local_asset": "assets/020.jpg",
+          "staging_usage": "/find-peace-in-christ/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -1141,7 +1469,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/online-giving/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -1154,7 +1486,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         }
       ]
     },
@@ -1172,7 +1508,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/sermons/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -1185,7 +1525,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         }
       ]
     },
@@ -1203,7 +1547,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/event-calendar/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -1216,7 +1564,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Event%20pic.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300",
@@ -1229,7 +1581,11 @@
             532,
             266
           ],
-          "aid": "ABOUT_IMAGE_RENDERED0"
+          "aid": "ABOUT_IMAGE_RENDERED0",
+          "production_asset": "Event%20pic.jpg",
+          "staging_local_asset": "assets/021.jpg",
+          "staging_usage": "/event-calendar/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -1247,7 +1603,11 @@
             100,
             100
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/blob-f601059.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100/qt=q:95",
@@ -1260,7 +1620,11 @@
             0,
             0
           ],
-          "aid": "HEADER_LOGO_IMAGE_RENDERED"
+          "aid": "HEADER_LOGO_IMAGE_RENDERED",
+          "production_asset": "blob-f601059.png",
+          "staging_local_asset": "assets/001.png",
+          "staging_usage": "Responsive duplicate recorded at 0×0 in production; staging renders the visible site logo once.",
+          "status": "PRODUCTION_ONLY_FUNCTION"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260725_132342.jpg/:/rs=w:370,cg:true,m",
@@ -1273,7 +1637,11 @@
             365,
             274
           ],
-          "aid": "GALLERY_IMAGE0_RENDERED"
+          "aid": "GALLERY_IMAGE0_RENDERED",
+          "production_asset": "20260725_132342.jpg",
+          "staging_local_asset": "assets/022.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260725_160842.jpg/:/rs=w:370,cg:true,m",
@@ -1286,7 +1654,11 @@
             365,
             274
           ],
-          "aid": "GALLERY_IMAGE1_RENDERED"
+          "aid": "GALLERY_IMAGE1_RENDERED",
+          "production_asset": "20260725_160842.jpg",
+          "staging_local_asset": "assets/023.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260725_151232.jpg/:/rs=w:370,cg:true,m",
@@ -1299,7 +1671,11 @@
             365,
             274
           ],
-          "aid": "GALLERY_IMAGE3_RENDERED"
+          "aid": "GALLERY_IMAGE3_RENDERED",
+          "production_asset": "20260725_151232.jpg",
+          "staging_local_asset": "assets/025.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260725_171501.jpg/:/rs=w:370,cg:true,m",
@@ -1312,7 +1688,11 @@
             365,
             274
           ],
-          "aid": "GALLERY_IMAGE4_RENDERED"
+          "aid": "GALLERY_IMAGE4_RENDERED",
+          "production_asset": "20260725_171501.jpg",
+          "staging_local_asset": "assets/026.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260725_132320.jpg/:/rs=w:370,cg:true,m",
@@ -1325,7 +1705,11 @@
             365,
             274
           ],
-          "aid": "GALLERY_IMAGE5_RENDERED"
+          "aid": "GALLERY_IMAGE5_RENDERED",
+          "production_asset": "20260725_132320.jpg",
+          "staging_local_asset": "assets/027.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1094.jpg/:/rs=w:1160,h:1547",
@@ -1338,7 +1722,11 @@
             450,
             600
           ],
-          "aid": "GALLERY_IMAGE1_RENDERED"
+          "aid": "GALLERY_IMAGE1_RENDERED",
+          "production_asset": "IMG_1094.jpg",
+          "staging_local_asset": "assets/production/065.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1094.jpg/:/rs=w:1160,h:1547",
@@ -1351,7 +1739,11 @@
             450,
             600
           ],
-          "aid": "GALLERY_IMAGE1_RENDERED"
+          "aid": "GALLERY_IMAGE1_RENDERED",
+          "production_asset": "IMG_1094.jpg",
+          "staging_local_asset": "assets/production/065.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1114.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -1364,7 +1756,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1114.jpg",
+          "staging_local_asset": "assets/production/061.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1094.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -1377,7 +1773,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1094.jpg",
+          "staging_local_asset": "assets/production/065.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1112.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -1390,7 +1790,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1112.jpg",
+          "staging_local_asset": "assets/production/066.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260617_183429-abe1380.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -1403,7 +1807,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "20260617_183429-abe1380.jpg",
+          "staging_local_asset": "assets/production/067.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1048.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -1416,7 +1824,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1048.jpg",
+          "staging_local_asset": "assets/production/062.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1047.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -1429,7 +1841,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1047.jpg",
+          "staging_local_asset": "assets/production/068.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1152.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -1442,7 +1858,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1152.jpg",
+          "staging_local_asset": "assets/production/063.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1169.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -1455,7 +1875,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1169.jpg",
+          "staging_local_asset": "assets/production/069.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260615_193602.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -1468,7 +1892,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "20260615_193602.jpg",
+          "staging_local_asset": "assets/production/070.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1100.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -1481,7 +1909,11 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1100.jpg",
+          "staging_local_asset": "assets/production/071.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         },
         {
           "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/IMG_1166.jpg/:/rs=w:70,h:70,cg:true,m/cr=w:70,h:70,a:cc",
@@ -1494,9 +1926,31 @@
             70,
             70
           ],
-          "aid": ""
+          "aid": "",
+          "production_asset": "IMG_1166.jpg",
+          "staging_local_asset": "assets/production/072.jpg",
+          "staging_usage": "/event-recap/ HTML",
+          "status": "MATCH"
         }
       ]
+    }
+  ],
+  "unrecovered_human_requested_images": [
+    {
+      "production_page": "/small-groups/",
+      "production_asset": "Men’s Small Group photo",
+      "staging_local_asset": null,
+      "staging_usage": null,
+      "status": "MISSING_FROM_STAGING",
+      "evidence_note": "The saved production screenshot has an empty gray photo area; the source image inventory contains no source URL or local asset."
+    },
+    {
+      "production_page": "/small-groups/",
+      "production_asset": "Women’s Small Group photo",
+      "staging_local_asset": null,
+      "staging_usage": null,
+      "status": "MISSING_FROM_STAGING",
+      "evidence_note": "The saved production screenshot has an empty aqua photo area; the source image inventory contains no source URL or local asset."
     }
   ]
 }
