@@ -17,7 +17,8 @@
     "Compared the saved production route/image inventory and route screenshots against generated staging markup.",
     "Checked all 16 routes at desktop (1440px) and mobile (390px) under a project subpath.",
     "Exercised dropdown dismissal, FAQ accordion, local-only form previews, and both carousels.",
-    "Attempted one bounded read-only production browser fetch for the Event Calendar and Sermons; both timed out."
+    "Attempted one bounded read-only production browser fetch for the Event Calendar and Sermons; both timed out.",
+    "Scrolled the live original Small Groups page to trigger lazy-loaded images; matched the men’s and women’s group photos to their cards and downloaded the source files."
   ],
   "route_audit": [
     {
@@ -205,19 +206,18 @@
     {
       "slug": "small-groups",
       "classifications": [
-        "MATCH",
-        "MISSING_FROM_STAGING"
+        "MATCH"
       ],
       "notes": [
-        "Women’s Fellowship image and stable anchor are present. The requested men’s and women’s group photos have no corresponding source URLs/assets in the captured production inventory; the saved production screenshot shows blank image regions there."
+        "The live original page lazy-loads both requested group photos; the recovered Men’s and Women’s Small Group images now match their source cards. The Small Groups intro and Women’s Fellowship assets also match."
       ],
       "source_items_compared": 65,
-      "captured_production_image_elements": 4,
+      "captured_production_image_elements": 6,
       "content_elements": {
         "headings": "MATCH",
         "paragraphs": "MATCH",
         "lists": null,
-        "images": "MISSING_FROM_STAGING",
+        "images": "MATCH",
         "links": "MATCH",
         "embeds": null,
         "carousel_slides": null,
@@ -424,18 +424,13 @@
       "classification": "MISSING_FROM_STAGING",
       "item": "Event Calendar Amazon Bible destination and full Fall/Winter clothing-drive continuation",
       "required_human_action": "Provide the exact Amazon destination and the complete remaining source sentence, or make the current production detail controls readable to the source capture."
-    },
-    {
-      "classification": "MISSING_FROM_STAGING",
-      "item": "Men’s and women’s small-group photos",
-      "required_human_action": "Provide the authoritative photo files/source URLs if those photos should exist; captured production currently shows blank photo regions and the inventory contains no matching assets."
     }
   ],
   "evidence_directory": "../prcc-visual-evidence/qa-correction-20260929",
   "image_inventory": {
-    "production_image_records": 109,
+    "production_image_records": 111,
     "status_counts": {
-      "MATCH": 90,
+      "MATCH": 92,
       "PRODUCTION_ONLY_FUNCTION": 16,
       "INTENTIONAL_IMPROVEMENT": 3
     },
@@ -446,9 +441,10 @@
       "staging usage",
       "status"
     ],
-    "matching_or_explained_records": 109,
+    "matching_or_explained_records": 111,
     "unmatched_records": 0,
-    "human_requested_unrecovered_assets": 2,
-    "unmatched_captured_records": 0
+    "human_requested_unrecovered_assets": 0,
+    "unmatched_captured_records": 0,
+    "recovered_human_requested_assets": 2
   }
 }

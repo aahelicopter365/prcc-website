@@ -5,7 +5,7 @@
     "each": 6000000,
     "total": 25000000
   },
-  "downloaded_bytes": 17020602,
+  "downloaded_bytes": 18438053,
   "assets": [
     {
       "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Yard%20Sale2.jpg",
@@ -723,6 +723,26 @@
           32
         ]
       }
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260208_112353.jpg",
+      "source_name": "20260208_112353.jpg",
+      "local_path": "assets/production/085.jpg",
+      "bytes": 809603,
+      "sha256": "bd5f01fd7787d99c81583b9fdd67044881463238c0ff4cfbc8deedb40870d40e",
+      "pages": [
+        "/small-groups/"
+      ]
+    },
+    {
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260208_112448.jpg",
+      "source_name": "20260208_112448.jpg",
+      "local_path": "assets/production/086.jpg",
+      "bytes": 607848,
+      "sha256": "6f3220ee03bf48384efa4679de2732f510862f0432bffbc314ecd82517f3e521",
+      "pages": [
+        "/small-groups/"
+      ]
     }
   ]
 }

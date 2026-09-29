@@ -5490,28 +5490,24 @@
           "local_path": "assets/001.png"
         },
         {
-          "source_url": "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=",
+          "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/small%20groups3.jpg",
           "alt": "",
-          "local_path": null,
-          "external_fallback": "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+          "local_path": "assets/production/052.jpg"
         },
         {
-          "source_url": "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=",
+          "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260208_112353.jpg",
           "alt": "",
-          "local_path": null,
-          "external_fallback": "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+          "local_path": "assets/production/085.jpg"
         },
         {
-          "source_url": "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=",
+          "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260208_112448.jpg",
           "alt": "",
-          "local_path": null,
-          "external_fallback": "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+          "local_path": "assets/production/086.jpg"
         },
         {
-          "source_url": "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=",
+          "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/Womens%20Fellowship.jpg",
           "alt": "",
-          "local_path": null,
-          "external_fallback": "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+          "local_path": "assets/production/053.jpg"
         }
       ],
       "links": [
@@ -5800,7 +5796,7 @@
       "navigation_label": "Small Groups",
       "destination_path": "/prcc-website/small-groups/",
       "content_status": "captured",
-      "asset_status": "partial",
+      "asset_status": "complete",
       "link_status": "complete",
       "functionality_status": "static page; source outbound links retained",
       "verification_status": "Local static and /prcc-website/ browser checks pass; public deployment not verified"

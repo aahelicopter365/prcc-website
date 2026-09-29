@@ -1012,6 +1012,40 @@
           "staging_local_asset": "assets/production/053.jpg",
           "staging_usage": "/small-groups/ HTML",
           "status": "MATCH"
+        },
+        {
+          "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260208_112353.jpg/:/cr=t:16.74%25,l:0%25,w:100%25,h:66.53%25/rs=w:1240,h:620,cg:true/qt=q:29",
+          "alt": "",
+          "dimensions": [
+            1240,
+            620
+          ],
+          "rendered": [
+            1112,
+            556
+          ],
+          "aid": "CONTENT_IMAGE2_RENDERED",
+          "production_asset": "20260208_112353.jpg",
+          "staging_local_asset": "assets/production/085.jpg",
+          "staging_usage": "/small-groups/ HTML",
+          "status": "MATCH"
+        },
+        {
+          "src": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260208_112448.jpg/:/cr=t:4.8%25,l:0%25,w:100%25,h:90.4%25/rs=w:1240,h:620,cg:true/qt=q:29",
+          "alt": "",
+          "dimensions": [
+            1240,
+            620
+          ],
+          "rendered": [
+            1112,
+            556
+          ],
+          "aid": "CONTENT_IMAGE3_RENDERED",
+          "production_asset": "20260208_112448.jpg",
+          "staging_local_asset": "assets/production/086.jpg",
+          "staging_usage": "/small-groups/ HTML",
+          "status": "MATCH"
         }
       ]
     },
@@ -1935,22 +1969,25 @@
       ]
     }
   ],
-  "unrecovered_human_requested_images": [
+  "unrecovered_human_requested_images": [],
+  "recovered_human_requested_images": [
     {
       "production_page": "/small-groups/",
       "production_asset": "Men’s Small Group photo",
-      "staging_local_asset": null,
-      "staging_usage": null,
-      "status": "MISSING_FROM_STAGING",
-      "evidence_note": "The saved production screenshot has an empty gray photo area; the source image inventory contains no source URL or local asset."
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260208_112353.jpg",
+      "staging_local_asset": "assets/production/085.jpg",
+      "staging_usage": "/small-groups/ HTML",
+      "status": "MATCH",
+      "evidence_note": "Recovered from the live original page after scrolling lazy-loaded images into view; verified within the Men’s Small Group card."
     },
     {
       "production_page": "/small-groups/",
       "production_asset": "Women’s Small Group photo",
-      "staging_local_asset": null,
-      "staging_usage": null,
-      "status": "MISSING_FROM_STAGING",
-      "evidence_note": "The saved production screenshot has an empty aqua photo area; the source image inventory contains no source URL or local asset."
+      "source_url": "https://img1.wsimg.com/isteam/ip/e4c9d98c-75c7-4b73-80e3-ce68a5ef528c/20260208_112448.jpg",
+      "staging_local_asset": "assets/production/086.jpg",
+      "staging_usage": "/small-groups/ HTML",
+      "status": "MATCH",
+      "evidence_note": "Recovered from the live original page after scrolling lazy-loaded images into view; verified within the Women’s Small Group card."
     }
   ]
 }

@@ -315,7 +315,14 @@ def render_small_groups_page(groups: list[dict], up: str, page_title: str) -> st
         heading = (group.get("heading") or {}).get("text", "").lstrip("\u200b ")
         copy = "".join(f'<p>{esc(item["text"])}</p>' for item in group["items"] if item["tag"] == "p")
         normalized = heading.casefold()
-        picture = image_tag("assets/production/053.jpg", "Women’s Fellowship", up) if normalized.startswith("women's circle") else ""
+        if normalized.startswith("men's small group"):
+            picture = image_tag("assets/production/085.jpg", "Men’s Small Group Bible study meeting in the church library", up)
+        elif normalized.startswith("women's small group"):
+            picture = image_tag("assets/production/086.jpg", "Women’s Small Group meeting in the church fellowship room", up)
+        elif normalized.startswith("women's circle"):
+            picture = image_tag("assets/production/053.jpg", "Women’s Fellowship sign", up)
+        else:
+            picture = ""
         anchor = ' id="womens-fellowship"' if normalized.startswith("women's circle") else ""
         blocks.append(f'<section class="small-meeting"{anchor}><h3>{esc(heading)}</h3>{picture}<div>{copy}</div></section>')
     return f'<section class="small-hero"><h1>{esc(page_title)}</h1><p class="small-citation">{esc(citation)}</p></section><section class="small-intro"><div><h2>Small Group Bible Studies</h2>{intro_text}</div>{image_tag("assets/production/052.jpg","Small group gathered for Bible study and prayer",up)}</section><h2 class="small-section-title">Adult Small Groups</h2><section class="small-meetings">{"".join(blocks)}</section>'
