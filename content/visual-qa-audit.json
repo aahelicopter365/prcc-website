@@ -4,6 +4,15 @@
   "reference": "https://prccgreensboro.org/",
   "staging": "https://aahelicopter365.github.io/prcc-website/",
   "repository": "https://github.com/aahelicopter365/prcc-website",
+  "deployment_verification": {
+    "deployed_commit": "8d24f438a197aed9b0ea5b6473ffd5ea089a314b",
+    "workflow": "https://github.com/aahelicopter365/prcc-website/actions/runs/36540750334",
+    "workflow_result": "success",
+    "live_root_http_status": 200,
+    "live_routes": "16/16 HTTP 200; one H1 per route",
+    "same_project_assets": "77/77 HTTP 200",
+    "verified_at": "2026-09-29"
+  },
   "method": [
     "Compared the saved production route/image inventory and route screenshots against generated staging markup.",
     "Checked all 16 routes at desktop (1440px) and mobile (390px) under a project subpath.",
