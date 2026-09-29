@@ -180,22 +180,21 @@ def render_faq_page(content: list[dict]) -> str:
 
 def render_calendar_page(groups: list[dict]) -> str:
     quote = next((item["text"] for group in groups for item in group["items"] if item["tag"] == "p"), "")
-    return f'''<section class="calendar-hero">{image_tag("assets/021.jpg", "Family standing together before a cross at sunset.")}<blockquote>{esc(quote)}</blockquote></section><section class="calendar-list"><div class="calendar-row"><h2>All of 2026</h2><div><h3>Food Collection for Greensboro Urban Ministries</h3><p>2026 Goal: 1,000 Lbs.</p><p>Current Total: 825 Lbs.</p></div><span>PRCC</span></div><div class="calendar-row"><h2>Ongoing</h2><div><h3>Collecting Bibles for 7Homes</h3><p>We continue to collect Bibles for the kids that come to Seven Homes. They are in need of Spanish Bibles ($12.99) and Explorer Bibles.</p></div><span>PRCC</span></div><div class="calendar-row"><h2>Ongoing</h2><div><h3>Fall/Winter Clothing Drive</h3><p>We are continuing to collect clothes for the homeless to be donated to the “Church Under the Bridge” homeless ministry.</p></div><span>PRCC</span></div></section>'''
+    return f'''<section class="calendar-hero">{image_tag("assets/021.jpg", "Family standing together before a cross at sunset.")}<blockquote>{esc(quote)}</blockquote></section><section class="calendar-list"><div class="calendar-row"><h2>All of 2026</h2><div><h3>Food Collection for Greensboro Urban Ministries</h3><p>2026 Goal: 1,000 Lbs.</p><p>Current Total: 825 Lbs.</p></div><span>PRCC</span></div><div class="calendar-row"><h2>Ongoing</h2><div><h3>Collecting Bibles for 7Homes</h3><p>We continue to collect Bibles for the kids that come to Seven Homes. They are in need of Spanish Bibles ($12.99) and Explorer Bibles ($12.86).</p><p>Bibles can be bought on Amazon. Here are the links:</p><ul><li><a href="https://www.amazon.com/dp/1680525778">Spanish Bible</a></li><li><a href="https://www.amazon.com/dp/1087758963">Elementary Bible</a></li></ul><p>Learn more at <a href="https://www.7homes.org/">7homes.org</a>.</p></div><span>PRCC</span></div><div class="calendar-row"><h2>Ongoing</h2><div><h3>Fall/Winter Clothing Drive</h3><p>We are continuing to collect clothes for the homeless to be donated to the “Church Under the Bridge” homeless ministry. Clothing can be placed in box in church narthex.</p></div><span>PRCC</span></div></section>'''
 
 
 def render_sermons_page() -> str:
     sermons = [
-        ("9-27-26 Soar Like an Eagle", "Isaiah 40:21-31", ""),
-        ("9-20-26 The Lord Is My Shepherd", "Psalm 23", ""),
-        ("9-13-26 God Always Had a Plan for Joseph", "Genesis 50:15-21", ""),
-        ("9-6-26 God Guides Joseph to Reconcile and Forgive", "Genesis 45:1-8", ""),
-        ("8-30-26 God Guides Joseph to Freedom", "Genesis 41:1-43", ""),
-        ("8-23-26 God Is with Joseph When Waiting", "Genesis 40:1-23", ""),
-        ("8-16-26 God Is with Joseph When Suffering", "Genesis 39:1-23", ""),
+        ("9-27-26 Soar Like an Eagle", "Isaiah 40:21-31", "1230715963"),
+        ("9-20-26 The Lord Is My Shepherd", "Psalm 23", "1228587159"),
+        ("9-13-26 God Always Had a Plan for Joseph", "Genesis 50:15-21", "1226769539"),
+        ("9-6-26 God Guides Joseph to Reconcile and Forgive", "Genesis 45:1-8", "1224480935"),
+        ("8-30-26 God Guides Joseph to Freedom", "Genesis 41:1-43", "1222505393"),
+        ("8-23-26 God Is with Joseph When Waiting", "Genesis 40:1-23", "1220622569"),
     ]
     entries = []
     for index, (title, passage, video) in enumerate(sermons):
-        player = f'<div class="sermon-player"><iframe src="{video}?title=0&amp;byline=0&amp;portrait=0" title="{esc(title)} sermon video" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>' if video else ''
+        player = f'<div class="sermon-player"><iframe src="https://player.vimeo.com/video/{esc(video)}?badge=0&amp;byline=0&amp;fe=ci&amp;fl=sv&amp;portrait=0&amp;share=copy&amp;title=0&amp;autoplay=0&amp;loop=0&amp;muted=0&amp;controls=1" title="{esc(title)} sermon video" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>' if video else ''
         heading = "h1" if not entries else "h2"
         entries.append(f'<section class="sermon-entry"><div class="sermon-copy"><{heading}>{esc(title)}</{heading}><p>{esc(passage)}</p></div>{player}</section>')
     return "".join(entries)

@@ -322,10 +322,10 @@
     {
       "slug": "sermons",
       "classifications": [
-        "MISSING_FROM_STAGING"
+        "MATCH"
       ],
       "notes": [
-        "Seven sermon titles/passages render, but production Vimeo embed IDs were absent from captured source/repository material. Read-only production navigation timed out; no ID was guessed."
+        "The live source page contains six current sermons with Vimeo embed IDs; all six titles, passages, and player URLs now render in staging."
       ],
       "source_items_compared": 62,
       "captured_production_image_elements": 2,
@@ -335,7 +335,7 @@
         "lists": null,
         "images": "MATCH",
         "links": "MATCH",
-        "embeds": "MISSING_FROM_STAGING",
+        "embeds": "MATCH",
         "carousel_slides": null,
         "buttons_forms": null,
         "visible_contact_information": null
@@ -344,21 +344,19 @@
     {
       "slug": "event-calendar",
       "classifications": [
-        "INTENTIONAL_IMPROVEMENT",
-        "MISSING_FROM_STAGING",
-        "STALE_STAGING"
+        "MATCH"
       ],
       "notes": [
-        "Ongoing source-backed collection details render directly. Dated Sep 23–27, 2026 entries were omitted because they were past as of 2026-09-29. The exact Amazon “here” URL and remaining Fall/Winter sentence could not be recovered: archived text is truncated and one direct read-only request timed out."
+        "Expanded the live source Event Details controls and recovered the full current clothing-drive sentence, Explorer Bible price, two Amazon product destinations, and 7Homes link. The current live calendar contains the 2026 food drive and two ongoing collections."
       ],
       "source_items_compared": 119,
       "captured_production_image_elements": 3,
       "content_elements": {
-        "headings": "STALE_STAGING",
-        "paragraphs": "MISSING_FROM_STAGING",
+        "headings": "MATCH",
+        "paragraphs": "MATCH",
         "lists": null,
         "images": "MATCH",
-        "links": "MISSING_FROM_STAGING",
+        "links": "MATCH",
         "embeds": null,
         "carousel_slides": null,
         "buttons_forms": "INTENTIONAL_IMPROVEMENT",
@@ -414,20 +412,14 @@
       "manual_controls": "PASS",
       "auto_rotation": "PASS"
     },
-    "map_iframe": "Google Maps tiles and pin rendered in the local browser"
-  },
-  "remaining_source_data": [
-    {
-      "classification": "MISSING_FROM_STAGING",
-      "item": "Current sermon Vimeo player URLs/IDs",
-      "required_human_action": "Provide the authoritative current Vimeo links or embed codes for the seven listed sermons."
+    "map_iframe": "Google Maps tiles and pin rendered in the local browser",
+    "sermon_embeds": {
+      "source_backed_players": 6,
+      "Vimeo_IDs": "PASS"
     },
-    {
-      "classification": "MISSING_FROM_STAGING",
-      "item": "Event Calendar Amazon Bible destination and full Fall/Winter clothing-drive continuation",
-      "required_human_action": "Provide the exact Amazon destination and the complete remaining source sentence, or make the current production detail controls readable to the source capture."
-    }
-  ],
+    "event_calendar_details": "PASS; source disclosures expanded and exact current destinations and remaining text recovered"
+  },
+  "remaining_source_data": [],
   "evidence_directory": "../prcc-visual-evidence/qa-correction-20260929",
   "image_inventory": {
     "production_image_records": 111,

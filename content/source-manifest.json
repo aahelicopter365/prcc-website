@@ -8493,7 +8493,15 @@
         },
         {
           "type": "h1",
-          "text": "9-20-26 the lord is my shepherd"
+          "text": "9-27-26 Soar Like an Eagle"
+        },
+        {
+          "type": "p",
+          "text": "Isaiah 40:21-31"
+        },
+        {
+          "type": "h2",
+          "text": "9-20-26 The Lord Is My Shepherd"
         },
         {
           "type": "p",
@@ -8501,7 +8509,7 @@
         },
         {
           "type": "h2",
-          "text": "9-13-26 god always had a plan for joseph"
+          "text": "9-13-26 God Always Had a Plan for Joseph"
         },
         {
           "type": "p",
@@ -8509,7 +8517,7 @@
         },
         {
           "type": "h2",
-          "text": "9-6-26 god guides joseph to reconcile and forgive"
+          "text": "9-6-26 God Guides Joseph to Reconcile and Forgive"
         },
         {
           "type": "p",
@@ -8517,7 +8525,7 @@
         },
         {
           "type": "h2",
-          "text": "8-30-26 god guides joseph to freedom"
+          "text": "8-30-26 God Guides Joseph to Freedom"
         },
         {
           "type": "p",
@@ -8525,19 +8533,11 @@
         },
         {
           "type": "h2",
-          "text": "8-23-26 god is with joseph when waiting"
+          "text": "8-23-26 God Is with Joseph When Waiting"
         },
         {
           "type": "p",
           "text": "Genesis 40:1-23"
-        },
-        {
-          "type": "h2",
-          "text": "8-16-26 god is with joseph when suffering"
-        },
-        {
-          "type": "p",
-          "text": "Genesis 39:1-23"
         },
         {
           "type": "p",
@@ -8848,8 +8848,52 @@
       "content_status": "captured",
       "asset_status": "complete",
       "link_status": "complete",
-      "functionality_status": "static page; source outbound links retained",
-      "verification_status": "Local static and /prcc-website/ browser checks pass; public deployment not verified"
+      "functionality_status": "Six source-backed Vimeo sermon embeds",
+      "verification_status": "Local static and /prcc-website/ browser checks pass; public deployment not verified",
+      "embedded_videos": [
+        {
+          "title": "9-27-26 Soar Like an Eagle",
+          "passage": "Isaiah 40:21-31",
+          "provider": "Vimeo",
+          "video_id": "1230715963",
+          "source_url": "https://player.vimeo.com/video/1230715963"
+        },
+        {
+          "title": "9-20-26 The Lord Is My Shepherd",
+          "passage": "Psalm 23",
+          "provider": "Vimeo",
+          "video_id": "1228587159",
+          "source_url": "https://player.vimeo.com/video/1228587159"
+        },
+        {
+          "title": "9-13-26 God Always Had a Plan for Joseph",
+          "passage": "Genesis 50:15-21",
+          "provider": "Vimeo",
+          "video_id": "1226769539",
+          "source_url": "https://player.vimeo.com/video/1226769539"
+        },
+        {
+          "title": "9-6-26 God Guides Joseph to Reconcile and Forgive",
+          "passage": "Genesis 45:1-8",
+          "provider": "Vimeo",
+          "video_id": "1224480935",
+          "source_url": "https://player.vimeo.com/video/1224480935"
+        },
+        {
+          "title": "8-30-26 God Guides Joseph to Freedom",
+          "passage": "Genesis 41:1-43",
+          "provider": "Vimeo",
+          "video_id": "1222505393",
+          "source_url": "https://player.vimeo.com/video/1222505393"
+        },
+        {
+          "title": "8-23-26 God Is with Joseph When Waiting",
+          "passage": "Genesis 40:1-23",
+          "provider": "Vimeo",
+          "video_id": "1220622569",
+          "source_url": "https://player.vimeo.com/video/1220622569"
+        }
+      ]
     },
     {
       "source_url": "https://prccgreensboro.org/event-calendar",
@@ -9290,7 +9334,26 @@
         },
         {
           "type": "p",
-          "text": "We continue to collect Bibles for the kids that come to Seven Homes. They are in need of Spanish Bibles ($12.99) and Explorer Bibles ($12.8..."
+          "text": "We continue to collect Bibles for the kids that come to Seven Homes. They are in need of Spanish Bibles ($12.99) and Explorer Bibles ($12.86)."
+        },
+        {
+          "type": "p",
+          "text": "Bibles can be bought on Amazon. Here are the links:"
+        },
+        {
+          "type": "a",
+          "text": "Spanish Bible",
+          "source_url": "https://www.amazon.com/dp/1680525778"
+        },
+        {
+          "type": "a",
+          "text": "Elementary Bible",
+          "source_url": "https://www.amazon.com/dp/1087758963"
+        },
+        {
+          "type": "a",
+          "text": "7homes.org",
+          "source_url": "https://www.7homes.org/"
         },
         {
           "type": "p",
@@ -9318,7 +9381,7 @@
         },
         {
           "type": "p",
-          "text": "We are continuing to collect clothes for the homeless to be donated to the \"Church Under the Bridge\" homeless ministry. Clothing can be plac..."
+          "text": "We are continuing to collect clothes for the homeless to be donated to the \"Church Under the Bridge\" homeless ministry. Clothing can be placed in box in church narthex."
         },
         {
           "type": "p",
@@ -9630,6 +9693,18 @@
         {
           "label": "",
           "source_url": "https://www.godaddy.com/websites/website-builder?isc=pwugc"
+        },
+        {
+          "label": "Spanish Bible",
+          "source_url": "https://www.amazon.com/dp/1680525778"
+        },
+        {
+          "label": "Elementary Bible",
+          "source_url": "https://www.amazon.com/dp/1087758963"
+        },
+        {
+          "label": "7homes.org",
+          "source_url": "https://www.7homes.org/"
         }
       ],
       "forms": [],
